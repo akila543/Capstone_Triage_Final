@@ -12,6 +12,12 @@ pipeline {
         sh'''npm run test'''
         }
         }
+        stage('FunctionalTesting'){
+        steps{
+        sh '''cd core && npm start '''
+        sh '''node selenium-test.js'''
+        }
+        }
 
 
 
