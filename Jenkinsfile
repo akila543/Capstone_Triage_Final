@@ -7,7 +7,11 @@ pipeline {
             }
          
         }
-        
+        stage('Testing'){
+        steps{
+        sh'''npm run test'''
+        }
+        }
 
 
 
