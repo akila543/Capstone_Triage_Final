@@ -18,6 +18,11 @@ pipeline {
         sh '''node selenium-test.js'''
         }
         }
+        stage('BuildDockerimages'){
+        steps{
+        sh '''sudo docker-compose build'''
+        }
+        }
 
 
 

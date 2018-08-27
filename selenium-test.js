@@ -2,7 +2,7 @@ var webdriver = require('selenium-webdriver');
 
   var driver = new webdriver.Builder().forBrowser('firefox').build();
  
-    driver.get('http://localhost:3000');		//url of your page
+    driver.get('http://localhost:1101');		//url of your page
 
     // checking for Traig Dashboard homepage by using Title of page
 
@@ -29,7 +29,7 @@ var webdriver = require('selenium-webdriver');
 	{
 		var url = driver.getCurrentUrl().then (function(url) {
 
-			if (url == 'http://localhost:3000/#/') 		//url of home page
+			if (url == 'http://localhost:1101/#/') 		//url of home page
 			{
 				console.log('successfully opening Traig Dashboard page');
 				return true;

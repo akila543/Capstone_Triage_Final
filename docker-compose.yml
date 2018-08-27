@@ -16,7 +16,7 @@ services:
       n5:
         ipv4_address: 172.18.0.6
     ports:
-      - 1101:3000
+      - 3000:1101
     links:
       - mongodb
 networks:
