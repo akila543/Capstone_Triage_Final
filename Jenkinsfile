@@ -21,7 +21,10 @@ pipeline {
         stage('BuildDockerimages'){
         steps{
 
-        sh '''chmod 0777 ./build.sh && ./build.sh'''
+        sh '''chmod 0777 /home/akila/.jenkins/workspace/Capstone_pipeline/build.sh'''
+    	sh '''cd /home/akila/.jenkins/workspace/Capstone_pipeline
+    	'''
+    	sh '''./build.sh'''
         }
         }
 
