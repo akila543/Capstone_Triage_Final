@@ -20,7 +20,7 @@ pipeline {
         }
         stage('BuildDockerimages'){
         steps{
-        sh '''sudo docker-compose build'''
+        sh '''./build.sh'''
         }
         }
 

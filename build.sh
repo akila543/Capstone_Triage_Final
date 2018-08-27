@@ -1,3 +1,4 @@
 #!/bin/sh
-cd /var/lib/jenkins/workspace/Capstone_Pipeline/
+cd /home/akila/.jenkins/workspace/Capstone_pipeline
 sudo docker-compose build
+sudo docker-compose up
