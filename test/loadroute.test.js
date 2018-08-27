@@ -22,6 +22,8 @@ request(app)
 it('should check post loadfile route status and return 200',(done)=>{
 request(app)
 .post('/loadconf')
-.expect(200)
+.expect(200).expect('file loaded into logstash')
 .end(done);
 });
+ 
+ after(done =>process.exit());
