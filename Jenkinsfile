@@ -3,9 +3,7 @@ pipeline {
     stages{
         stage('Build'){
             steps {
-                sh '''cd core'''
-                sh '''npm install'''
-                sh '''npm run build'''
+                sh '''cd core && npm install && npm run build'''
             }
          
         }
