@@ -1,4 +1,4 @@
 #!/bin/sh
 cd /home/akila/.jenkins/workspace/Capstone_pipeline
-docker-compose build
-docker-compose up -d mongodb triag-core
+sudo docker-compose build
+sudo docker-compose up -d mongodb triag-core
