@@ -8,13 +8,14 @@ import Toolbar from '@material-ui/core/Toolbar';
 import {HashRouter, Route, Link} from 'react-router-dom';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
-import Button from '@material-ui/core/Button';
+// import Button from '@material-ui/core/Button';
 import request from 'superagent';
 import { withStyles } from '@material-ui/core/styles';
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
+import { Button, Header, Icon, Modal } from 'semantic-ui-react';
 const styles={
     appbar:{
         backgroundColor: "#1b1d21",
@@ -28,7 +29,8 @@ class expenseForm extends React.Component{
   {
     super(props);
     this.state={
-        typeoflog:''
+        typeoflog:'',
+        modalOpen: false
 
     }
    
@@ -52,6 +54,10 @@ class expenseForm extends React.Component{
            }
            console.log(res)
          });
+
+  this.setState({
+    modalOpen: false
+  })
 }
 
   render()
@@ -80,13 +86,32 @@ class expenseForm extends React.Component{
                  <MenuItem value="docker">docker</MenuItem>
                  <MenuItem value="sample">sample</MenuItem>
                 </Select>
-                <Button onClick={this.handleSave}
+            <Button onClick={()=>{this.setState({
+              modalOpen: true
+            })}}
              name="button" style={{marginLeft:"700px",marginBottom:'-30px',color:"black",backgroundColor:"#67696d"}}>
               Submit
             </Button>
        
          </Paper>
          </center>
+         <Modal
+            open={this.state.modalOpen}
+            onClose={()=>{this.setState({
+              modalOpen: false
+            })}}
+            basic
+            size='small'
+          >
+            <Modal.Content>
+              <h3>Your log file has been submitted successfully </h3>
+            </Modal.Content>
+            <Modal.Actions>
+              <Button color='green' onClick={this.handleSave.bind(this)} inverted>
+                <Icon name='checkmark' /> Got it
+              </Button>
+            </Modal.Actions>
+          </Modal>
          
 </div>
 

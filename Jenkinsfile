@@ -18,13 +18,19 @@ pipeline {
         sh '''node selenium-test.js'''
         }
         }
-        stage('BuildDockerimages'){
+        stage('Code_Quality'){
         steps{
-
-        sh '''chmod 0777 /home/akila/.jenkins/workspace/Capstone_pipeline/build.sh'''
-    	sh '''cd /home/akila/.jenkins/workspace/Capstone_pipeline
-    	'''
-    	sh '''./build.sh'''
+        build job: 'Code_Quality'
+        }
+        post{
+        success{
+        build job: 'Ansible_Deployment'
+        }
+        failure {
+        echo 'Code Quality has failed'
+        input message: 'Approve for deployment?'
+        build job: 'Ansible_Deployment'
+        }
         }
         }
 
