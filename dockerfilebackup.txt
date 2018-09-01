@@ -13,8 +13,6 @@ ENV JAVA_HOME /home/triaguser/jdk1.8.0_181
 ENV PATH $JAVA_HOME/bin:$PATH
 ADD elasticsearch.tar.gz /home/triaguser
 ADD kibana.tar.gz /home/triaguser
-RUN elasticsearch/bin/elasticsearch &
-RUN kibana/bin/kibana &
 ADD logstash-6.3.2 /home/triaguser
 COPY /home/triaguser
 COPY package.json /home/triaguser
