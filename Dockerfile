@@ -16,8 +16,6 @@ ADD logstash-6.3.2 /home/triaguser
 ADD build.tar.gz /home/triaguser
 COPY core /home/triaguser
 WORKDIR /home/triaguser/core
-ADD syslog /home/triaguser
-RUN chmod 0777 /home/triaguser/syslog
 RUN npm install
 RUN npm run build
 WORKDIR /home/triaguser
