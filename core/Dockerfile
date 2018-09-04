@@ -15,9 +15,8 @@ ADD kibana.tar.gz /home/triaguser
 ADD logstash-6.3.2.tar.gz /home/triaguser
 COPY core /home/triaguser
 RUN npm install
-WORKDIR /home/triaguser
-COPY build.tar.gz /home/triaguser
-COPY build.sh /home/triaguser
+ADD build.tar.gz /home/triaguser
+RUN chmod 0777 /home/triaguser/build.sh
 CMD /home/triaguser/build.sh
 
 

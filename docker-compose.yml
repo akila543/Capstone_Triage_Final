@@ -1,6 +1,0 @@
-version: '2'
-services:
-  triag-core:
-    build: ./core
-    ports:
-      - 3000:1101
