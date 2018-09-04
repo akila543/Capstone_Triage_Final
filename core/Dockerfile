@@ -13,10 +13,11 @@ ENV PATH $JAVA_HOME/bin:$PATH
 ADD elasticsearch.tar.gz /home/triaguser
 ADD kibana.tar.gz /home/triaguser
 COPY logstash-6.3.2.tar.gz /home/triaguser
-COPY . /home/triaguser
+COPY core /home/triaguser
 RUN npm install
 WORKDIR /home/triaguser
 COPY build.tar.gz /home/triaguser
+RUN chmod 0777 /home/triaguser/build.sh
 CMD /home/triaguser/build.sh
 
 
