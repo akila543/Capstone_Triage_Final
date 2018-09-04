@@ -24,7 +24,12 @@ pipeline {
         }
       
         }
-
+        stage('Ansible deployment')
+        {
+        steps{
+        build job: 'Ansible_Deployment'
+        }
+        }
 
 
     }
