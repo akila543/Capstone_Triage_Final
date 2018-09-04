@@ -17,7 +17,6 @@ COPY . /home/triaguser
 RUN npm install
 WORKDIR /home/triaguser
 COPY build.tar.gz /home/triaguser
-RUN chmod 0777 /home/triaguser/build.sh
 CMD /home/triaguser/build.sh
 
 
