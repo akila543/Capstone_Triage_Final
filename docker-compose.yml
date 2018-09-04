@@ -1,28 +1,6 @@
 version: '2'
 services:
-  mongodb:
-    image: mongo:latest
-    restart: always
-    networks:
-      n5:
-        ipv4_address: 172.18.0.2
-    ports:
-      - 27017:27017
   triag-core:
     build: ./core
-    depends_on:
-      - mongodb
-    networks:
-      n5:
-        ipv4_address: 172.18.0.6
     ports:
-      - 3000:3000
-    links:
-      - mongodb
-networks:
-  n5:
-    driver: bridge
-    ipam:
-     config:
-       - subnet: 172.18.0.0/16
-         gateway: 172.18.0.1
+      - 3000:1101

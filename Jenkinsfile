@@ -22,16 +22,7 @@ pipeline {
         steps{
         build job: 'Code_Quality'
         }
-        post{
-        success{
-        build job: 'Ansible_Deployment'
-        }
-        failure {
-        echo 'Code Quality has failed'
-        input message: 'Approve for deployment?'
-        build job: 'Ansible_Deployment'
-        }
-        }
+      
         }
 
 
