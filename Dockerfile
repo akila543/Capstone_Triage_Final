@@ -1,0 +1,21 @@
+FROM ubuntu:14.04
+RUN apt-get update
+RUN apt-get install -y curl
+RUN curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
+RUN bash nodesource_setup.sh
+RUN apt-get install -y nodejs
+RUN useradd -ms /bin/bash triaguser
+USER triaguser
+WORKDIR /home/triaguser
+ADD jdk-8u181-linux-x64.tar.gz /home/triaguser
+ENV JAVA_HOME /home/triaguser/jdk1.8.0_181
+ENV PATH $JAVA_HOME/bin:$PATH
+COPY . /home/triaguser
+RUN npm install
+RUN chmod 0777 /home/triaguser/build.sh
+CMD /home/triaguser/build.sh
+
+
+
+
+
