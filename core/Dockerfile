@@ -11,7 +11,6 @@ ADD jdk-8u181-linux-x64.tar.gz /home/triaguser
 ENV JAVA_HOME /home/triaguser/jdk1.8.0_181
 ENV PATH $JAVA_HOME/bin:$PATH
 COPY . /home/triaguser
-WORKDIR /home/triaguser/core
 RUN npm install
 WORKDIR /home/triaguser
 RUN chmod 0777 /home/triaguser/build.sh
