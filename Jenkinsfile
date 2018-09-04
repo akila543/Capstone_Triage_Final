@@ -22,7 +22,6 @@ pipeline {
         steps{
         build job: 'Code_Quality'
         }
-      
         }
         stage('Ansible deployment')
         {
