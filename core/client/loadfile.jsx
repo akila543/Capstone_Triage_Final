@@ -78,7 +78,7 @@ class expenseForm extends React.Component{
                  >
                  <MenuItem value="SQL">SQL</MenuItem>
                  <MenuItem value="docker">docker</MenuItem>
-                 <MenuItem value="sample">sample</MenuItem>
+                 <MenuItem value="SAMPLE">SAMPLE</MenuItem>
                 </Select>
             <Button onClick={this.handleSave}
              name="button" style={{marginLeft:"700px",marginBottom:'-30px',color:"black",backgroundColor:"#67696d"}}>
