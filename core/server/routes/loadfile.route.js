@@ -17,7 +17,7 @@ if(type=="SQL"){
 }
 else if(type=="sample"){
    
-  exec('nohup /home/akila/logstash-6.3.2/bin/logstash -f /home/akila/Capstone_Triag/conf/sample2.conf',function(err,stdout,stderr){
+  exec('nohup /home/triaguser/logstash-6.3.2/bin/logstash -f /home/triaguser/conf/sampledocker.conf',function(err,stdout,stderr){
   console.log(stdout)
   console.log('errr',stderr);
   console.log(err);
