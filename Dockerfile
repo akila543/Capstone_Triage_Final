@@ -17,7 +17,6 @@ ADD build.tar.gz /home/triaguser
 COPY core /home/triaguser
 WORKDIR /home/triaguser/core
 RUN npm install
-RUN npm run build
 WORKDIR /home/triaguser
 RUN chmod 0777 /home/triaguser/build.sh
 CMD /home/triaguser/build.sh
