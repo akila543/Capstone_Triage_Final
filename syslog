@@ -1,0 +1,1146 @@
+Aug 30 07:36:39 akila-VirtualBox anacron[27485]: Job `cron.daily' terminated
+Aug 30 07:36:39 akila-VirtualBox anacron[27485]: Normal exit (1 job run)
+Aug 30 07:36:45 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 30 07:36:55 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 30 07:37:05 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 30 07:37:15 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 30 08:02:24 akila-VirtualBox dbus[698]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Aug 30 08:02:24 akila-VirtualBox systemd[1]: Starting Hostname Service...
+Aug 30 08:02:25 akila-VirtualBox dbus[698]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Aug 30 08:02:25 akila-VirtualBox systemd[1]: Started Hostname Service.
+Aug 30 08:02:25 akila-VirtualBox gnome-session[2539]: Nautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)
+Aug 30 08:11:34 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 30 08:11:44 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 30 08:11:54 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 30 08:12:05 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 30 08:16:42 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:16:42+05:30" level=info msg="shim reaped" id=20ae07036215f28cbf4591561466c16d8ed2eedc676738ca639491cf0d4cb0ab
+Aug 30 08:16:42 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:16:42.047236122+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 08:16:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597202.1630] device (vetha78529e): link disconnected
+Aug 30 08:16:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597202.1631] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 08:16:42 akila-VirtualBox kernel: [54827.786039] docker0: port 1(vetha78529e) entered disabled state
+Aug 30 08:16:42 akila-VirtualBox kernel: [54827.791488] veth046162d: renamed from eth0
+Aug 30 08:16:42 akila-VirtualBox NetworkManager[787]: <warn>  [1535597202.1752] device (veth046162d): failed to find device 311 'veth046162d' with udev
+Aug 30 08:16:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597202.1803] manager: (veth046162d): new Veth device (/org/freedesktop/NetworkManager/Devices/460)
+Aug 30 08:16:42 akila-VirtualBox avahi-daemon[772]: Interface vetha78529e.IPv6 no longer relevant for mDNS.
+Aug 30 08:16:42 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface vetha78529e.IPv6 with address fe80::944c:fdff:feb0:791.
+Aug 30 08:16:42 akila-VirtualBox kernel: [54827.826149] docker0: port 1(vetha78529e) entered disabled state
+Aug 30 08:16:42 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::944c:fdff:feb0:791 on vetha78529e.
+Aug 30 08:16:42 akila-VirtualBox kernel: [54827.842198] device vetha78529e left promiscuous mode
+Aug 30 08:16:42 akila-VirtualBox kernel: [54827.842205] docker0: port 1(vetha78529e) entered disabled state
+Aug 30 08:16:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597202.2358] devices added (path: /sys/devices/virtual/net/veth046162d, iface: veth046162d)
+Aug 30 08:16:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597202.2389] device added (path: /sys/devices/virtual/net/veth046162d, iface: veth046162d): no ifupdown configuration found.
+Aug 30 08:16:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597202.2518] device (veth046162d): driver 'veth' does not support carrier detection.
+Aug 30 08:16:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597202.2560] device (vetha78529e): driver 'veth' does not support carrier detection.
+Aug 30 08:16:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597202.2993] devices removed (path: /sys/devices/virtual/net/veth046162d, iface: veth046162d)
+Aug 30 08:16:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597202.3021] devices removed (path: /sys/devices/virtual/net/vetha78529e, iface: vetha78529e)
+Aug 30 08:16:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597206.1959] device (docker0): link disconnected (calling deferred action)
+Aug 30 08:17:01 akila-VirtualBox CRON[28910]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 30 08:17:41 akila-VirtualBox NetworkManager[787]: <warn>  [1535597261.7391] device (veth7499790): failed to find device 313 'veth7499790' with udev
+Aug 30 08:17:41 akila-VirtualBox systemd-udevd[28934]: Could not generate persistent MAC address for veth7499790: No such file or directory
+Aug 30 08:17:41 akila-VirtualBox NetworkManager[787]: <info>  [1535597261.7465] manager: (veth7499790): new Veth device (/org/freedesktop/NetworkManager/Devices/461)
+Aug 30 08:17:41 akila-VirtualBox NetworkManager[787]: <warn>  [1535597261.7573] device (vethf4cde14): failed to find device 314 'vethf4cde14' with udev
+Aug 30 08:17:41 akila-VirtualBox systemd-udevd[28936]: Could not generate persistent MAC address for vethf4cde14: No such file or directory
+Aug 30 08:17:41 akila-VirtualBox kernel: [54887.384964] docker0: port 1(vethf4cde14) entered blocking state
+Aug 30 08:17:41 akila-VirtualBox kernel: [54887.384966] docker0: port 1(vethf4cde14) entered disabled state
+Aug 30 08:17:41 akila-VirtualBox kernel: [54887.385091] device vethf4cde14 entered promiscuous mode
+Aug 30 08:17:41 akila-VirtualBox kernel: [54887.385210] IPv6: ADDRCONF(NETDEV_UP): vethf4cde14: link is not ready
+Aug 30 08:17:41 akila-VirtualBox NetworkManager[787]: <info>  [1535597261.7767] manager: (vethf4cde14): new Veth device (/org/freedesktop/NetworkManager/Devices/462)
+Aug 30 08:17:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:17:41.803291552+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 08:17:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:17:41.803733618+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 08:17:41 akila-VirtualBox NetworkManager[787]: <info>  [1535597261.8699] devices added (path: /sys/devices/virtual/net/veth7499790, iface: veth7499790)
+Aug 30 08:17:41 akila-VirtualBox NetworkManager[787]: <info>  [1535597261.8699] device added (path: /sys/devices/virtual/net/veth7499790, iface: veth7499790): no ifupdown configuration found.
+Aug 30 08:17:41 akila-VirtualBox NetworkManager[787]: <info>  [1535597261.9046] devices added (path: /sys/devices/virtual/net/vethf4cde14, iface: vethf4cde14)
+Aug 30 08:17:41 akila-VirtualBox NetworkManager[787]: <info>  [1535597261.9046] device added (path: /sys/devices/virtual/net/vethf4cde14, iface: vethf4cde14): no ifupdown configuration found.
+Aug 30 08:17:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:17:41+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/bb16b9e5ed68ce73e40c8ed7115ad139587f52b799fd03558b808d594af575a3/shim.sock" debug=false pid=28955
+Aug 30 08:17:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597262.3026] device (veth7499790): driver 'veth' does not support carrier detection.
+Aug 30 08:17:42 akila-VirtualBox kernel: [54887.942094] eth0: renamed from veth7499790
+Aug 30 08:17:42 akila-VirtualBox kernel: [54887.942940] IPv6: ADDRCONF(NETDEV_CHANGE): vethf4cde14: link becomes ready
+Aug 30 08:17:42 akila-VirtualBox kernel: [54887.942992] docker0: port 1(vethf4cde14) entered blocking state
+Aug 30 08:17:42 akila-VirtualBox kernel: [54887.942993] docker0: port 1(vethf4cde14) entered forwarding state
+Aug 30 08:17:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597262.3281] device (vethf4cde14): link connected
+Aug 30 08:17:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597262.3312] device (docker0): link connected
+Aug 30 08:17:42 akila-VirtualBox NetworkManager[787]: <info>  [1535597262.3425] devices removed (path: /sys/devices/virtual/net/veth7499790, iface: veth7499790)
+Aug 30 08:17:44 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface vethf4cde14.IPv6 with address fe80::9834:d6ff:fe4c:c60e.
+Aug 30 08:17:44 akila-VirtualBox avahi-daemon[772]: New relevant interface vethf4cde14.IPv6 for mDNS.
+Aug 30 08:17:44 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::9834:d6ff:fe4c:c60e on vethf4cde14.*.
+Aug 30 08:18:48 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:18:48+05:30" level=info msg="shim reaped" id=bb16b9e5ed68ce73e40c8ed7115ad139587f52b799fd03558b808d594af575a3
+Aug 30 08:18:48 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:18:48.056565075+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 08:18:48 akila-VirtualBox NetworkManager[787]: <info>  [1535597328.0642] device (vethf4cde14): link disconnected
+Aug 30 08:18:48 akila-VirtualBox NetworkManager[787]: <info>  [1535597328.0643] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 08:18:48 akila-VirtualBox kernel: [54953.685701] docker0: port 1(vethf4cde14) entered disabled state
+Aug 30 08:18:48 akila-VirtualBox kernel: [54953.690737] veth7499790: renamed from eth0
+Aug 30 08:18:48 akila-VirtualBox NetworkManager[787]: <warn>  [1535597328.0779] device (veth7499790): failed to find device 313 'veth7499790' with udev
+Aug 30 08:18:48 akila-VirtualBox NetworkManager[787]: <info>  [1535597328.0798] manager: (veth7499790): new Veth device (/org/freedesktop/NetworkManager/Devices/463)
+Aug 30 08:18:48 akila-VirtualBox avahi-daemon[772]: Interface vethf4cde14.IPv6 no longer relevant for mDNS.
+Aug 30 08:18:48 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface vethf4cde14.IPv6 with address fe80::9834:d6ff:fe4c:c60e.
+Aug 30 08:18:48 akila-VirtualBox kernel: [54953.728332] docker0: port 1(vethf4cde14) entered disabled state
+Aug 30 08:18:48 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::9834:d6ff:fe4c:c60e on vethf4cde14.
+Aug 30 08:18:48 akila-VirtualBox kernel: [54953.732255] device vethf4cde14 left promiscuous mode
+Aug 30 08:18:48 akila-VirtualBox kernel: [54953.732259] docker0: port 1(vethf4cde14) entered disabled state
+Aug 30 08:18:48 akila-VirtualBox NetworkManager[787]: <info>  [1535597328.1171] device (veth7499790): driver 'veth' does not support carrier detection.
+Aug 30 08:18:48 akila-VirtualBox NetworkManager[787]: <info>  [1535597328.1197] device (vethf4cde14): driver 'veth' does not support carrier detection.
+Aug 30 08:18:48 akila-VirtualBox NetworkManager[787]: <info>  [1535597328.1269] devices added (path: /sys/devices/virtual/net/veth7499790, iface: veth7499790)
+Aug 30 08:18:48 akila-VirtualBox NetworkManager[787]: <info>  [1535597328.1366] device added (path: /sys/devices/virtual/net/veth7499790, iface: veth7499790): no ifupdown configuration found.
+Aug 30 08:18:48 akila-VirtualBox NetworkManager[787]: <info>  [1535597328.1730] devices removed (path: /sys/devices/virtual/net/veth7499790, iface: veth7499790)
+Aug 30 08:18:48 akila-VirtualBox NetworkManager[787]: <info>  [1535597328.1797] devices removed (path: /sys/devices/virtual/net/vethf4cde14, iface: vethf4cde14)
+Aug 30 08:18:52 akila-VirtualBox NetworkManager[787]: <info>  [1535597332.1965] device (docker0): link disconnected (calling deferred action)
+Aug 30 08:19:37 akila-VirtualBox NetworkManager[787]: <warn>  [1535597377.8843] device (veth0bfac6b): failed to find device 315 'veth0bfac6b' with udev
+Aug 30 08:19:37 akila-VirtualBox NetworkManager[787]: <info>  [1535597377.8945] manager: (veth0bfac6b): new Veth device (/org/freedesktop/NetworkManager/Devices/464)
+Aug 30 08:19:37 akila-VirtualBox NetworkManager[787]: <warn>  [1535597377.8964] device (vethff07793): failed to find device 316 'vethff07793' with udev
+Aug 30 08:19:37 akila-VirtualBox systemd-udevd[29156]: Could not generate persistent MAC address for vethff07793: No such file or directory
+Aug 30 08:19:37 akila-VirtualBox systemd-udevd[29154]: Could not generate persistent MAC address for veth0bfac6b: No such file or directory
+Aug 30 08:19:37 akila-VirtualBox NetworkManager[787]: <info>  [1535597377.9208] manager: (vethff07793): new Veth device (/org/freedesktop/NetworkManager/Devices/465)
+Aug 30 08:19:37 akila-VirtualBox kernel: [55003.543960] docker0: port 1(vethff07793) entered blocking state
+Aug 30 08:19:37 akila-VirtualBox kernel: [55003.543962] docker0: port 1(vethff07793) entered disabled state
+Aug 30 08:19:37 akila-VirtualBox kernel: [55003.544087] device vethff07793 entered promiscuous mode
+Aug 30 08:19:37 akila-VirtualBox kernel: [55003.544203] IPv6: ADDRCONF(NETDEV_UP): vethff07793: link is not ready
+Aug 30 08:19:37 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:37.952463619+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 08:19:37 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:37.952491766+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 08:19:38 akila-VirtualBox NetworkManager[787]: <info>  [1535597378.0291] devices added (path: /sys/devices/virtual/net/vethff07793, iface: vethff07793)
+Aug 30 08:19:38 akila-VirtualBox NetworkManager[787]: <info>  [1535597378.0291] device added (path: /sys/devices/virtual/net/vethff07793, iface: vethff07793): no ifupdown configuration found.
+Aug 30 08:19:38 akila-VirtualBox NetworkManager[787]: <info>  [1535597378.0367] devices added (path: /sys/devices/virtual/net/veth0bfac6b, iface: veth0bfac6b)
+Aug 30 08:19:38 akila-VirtualBox NetworkManager[787]: <info>  [1535597378.0368] device added (path: /sys/devices/virtual/net/veth0bfac6b, iface: veth0bfac6b): no ifupdown configuration found.
+Aug 30 08:19:38 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:38+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/f6a7e79202658c8fe19a7015e8c527ab1f9d45287177531621747d3a60bb01bb/shim.sock" debug=false pid=29174
+Aug 30 08:19:38 akila-VirtualBox NetworkManager[787]: <info>  [1535597378.2464] devices removed (path: /sys/devices/virtual/net/veth0bfac6b, iface: veth0bfac6b)
+Aug 30 08:19:38 akila-VirtualBox NetworkManager[787]: <info>  [1535597378.2464] device (veth0bfac6b): driver 'veth' does not support carrier detection.
+Aug 30 08:19:38 akila-VirtualBox kernel: [55003.880652] eth0: renamed from veth0bfac6b
+Aug 30 08:19:38 akila-VirtualBox kernel: [55003.880914] IPv6: ADDRCONF(NETDEV_CHANGE): vethff07793: link becomes ready
+Aug 30 08:19:38 akila-VirtualBox kernel: [55003.880965] docker0: port 1(vethff07793) entered blocking state
+Aug 30 08:19:38 akila-VirtualBox kernel: [55003.880966] docker0: port 1(vethff07793) entered forwarding state
+Aug 30 08:19:38 akila-VirtualBox NetworkManager[787]: <info>  [1535597378.2611] device (vethff07793): link connected
+Aug 30 08:19:38 akila-VirtualBox NetworkManager[787]: <info>  [1535597378.2615] device (docker0): link connected
+Aug 30 08:19:39 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface vethff07793.IPv6 with address fe80::244e:93ff:fe04:71d8.
+Aug 30 08:19:39 akila-VirtualBox avahi-daemon[772]: New relevant interface vethff07793.IPv6 for mDNS.
+Aug 30 08:19:39 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::244e:93ff:fe04:71d8 on vethff07793.*.
+Aug 30 08:19:46 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:46+05:30" level=info msg="shim reaped" id=f6a7e79202658c8fe19a7015e8c527ab1f9d45287177531621747d3a60bb01bb
+Aug 30 08:19:46 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:46.446202889+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.4518] device (vethff07793): link disconnected
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.4518] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.072624] docker0: port 1(vethff07793) entered disabled state
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.077401] veth0bfac6b: renamed from eth0
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <warn>  [1535597386.4632] device (veth0bfac6b): failed to find device 315 'veth0bfac6b' with udev
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.4681] manager: (veth0bfac6b): new Veth device (/org/freedesktop/NetworkManager/Devices/466)
+Aug 30 08:19:46 akila-VirtualBox avahi-daemon[772]: Interface vethff07793.IPv6 no longer relevant for mDNS.
+Aug 30 08:19:46 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface vethff07793.IPv6 with address fe80::244e:93ff:fe04:71d8.
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.118598] docker0: port 1(vethff07793) entered disabled state
+Aug 30 08:19:46 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::244e:93ff:fe04:71d8 on vethff07793.
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.127677] device vethff07793 left promiscuous mode
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.127682] docker0: port 1(vethff07793) entered disabled state
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.5531] device (veth0bfac6b): driver 'veth' does not support carrier detection.
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.5546] device (vethff07793): driver 'veth' does not support carrier detection.
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.5866] devices added (path: /sys/devices/virtual/net/veth0bfac6b, iface: veth0bfac6b)
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.5877] device added (path: /sys/devices/virtual/net/veth0bfac6b, iface: veth0bfac6b): no ifupdown configuration found.
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.5986] devices removed (path: /sys/devices/virtual/net/vethff07793, iface: vethff07793)
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.6093] devices removed (path: /sys/devices/virtual/net/veth0bfac6b, iface: veth0bfac6b)
+Aug 30 08:19:46 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:46.911911893+05:30" level=info msg="Layer sha256:52aa84f4fb6c5e3aae4808814cf5a090accbea4e374dc4be15813bf9634ccec1 cleaned up"
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <warn>  [1535597386.9769] device (vethc1d615f): failed to find device 317 'vethc1d615f' with udev
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.9815] manager: (vethc1d615f): new Veth device (/org/freedesktop/NetworkManager/Devices/467)
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <warn>  [1535597386.9820] device (veth9b258a4): failed to find device 318 'veth9b258a4' with udev
+Aug 30 08:19:46 akila-VirtualBox systemd-udevd[29334]: Could not generate persistent MAC address for veth9b258a4: No such file or directory
+Aug 30 08:19:46 akila-VirtualBox systemd-udevd[29332]: Could not generate persistent MAC address for vethc1d615f: No such file or directory
+Aug 30 08:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535597386.9886] manager: (veth9b258a4): new Veth device (/org/freedesktop/NetworkManager/Devices/468)
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.611972] docker0: port 1(veth9b258a4) entered blocking state
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.611973] docker0: port 1(veth9b258a4) entered disabled state
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.612062] device veth9b258a4 entered promiscuous mode
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.612141] IPv6: ADDRCONF(NETDEV_UP): veth9b258a4: link is not ready
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.612143] docker0: port 1(veth9b258a4) entered blocking state
+Aug 30 08:19:46 akila-VirtualBox kernel: [55012.612144] docker0: port 1(veth9b258a4) entered forwarding state
+Aug 30 08:19:47 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:47.014306197+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 08:19:47 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:47.014528858+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.0699] devices added (path: /sys/devices/virtual/net/veth9b258a4, iface: veth9b258a4)
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.0727] device added (path: /sys/devices/virtual/net/veth9b258a4, iface: veth9b258a4): no ifupdown configuration found.
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.0946] devices added (path: /sys/devices/virtual/net/vethc1d615f, iface: vethc1d615f)
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.0947] device added (path: /sys/devices/virtual/net/vethc1d615f, iface: vethc1d615f): no ifupdown configuration found.
+Aug 30 08:19:47 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:47+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/15df27acccc1bdf5d0dd90668a8e8ece59f9aab3a5cc65df2ace8dd8dd25fd8e/shim.sock" debug=false pid=29352
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.2285] devices removed (path: /sys/devices/virtual/net/vethc1d615f, iface: vethc1d615f)
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.2285] device (vethc1d615f): driver 'veth' does not support carrier detection.
+Aug 30 08:19:47 akila-VirtualBox kernel: [55012.861071] eth0: renamed from vethc1d615f
+Aug 30 08:19:47 akila-VirtualBox kernel: [55012.861263] IPv6: ADDRCONF(NETDEV_CHANGE): veth9b258a4: link becomes ready
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.2412] device (veth9b258a4): link connected
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.2415] device (docker0): link connected
+Aug 30 08:19:47 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:47+05:30" level=info msg="shim reaped" id=15df27acccc1bdf5d0dd90668a8e8ece59f9aab3a5cc65df2ace8dd8dd25fd8e
+Aug 30 08:19:47 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:47.393166075+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.3995] device (veth9b258a4): link disconnected
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.3996] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 08:19:47 akila-VirtualBox kernel: [55013.020293] docker0: port 1(veth9b258a4) entered disabled state
+Aug 30 08:19:47 akila-VirtualBox kernel: [55013.025005] vethc1d615f: renamed from eth0
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <warn>  [1535597387.4105] device (vethc1d615f): failed to find device 317 'vethc1d615f' with udev
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.4146] manager: (vethc1d615f): new Veth device (/org/freedesktop/NetworkManager/Devices/469)
+Aug 30 08:19:47 akila-VirtualBox kernel: [55013.060968] docker0: port 1(veth9b258a4) entered disabled state
+Aug 30 08:19:47 akila-VirtualBox kernel: [55013.064884] device veth9b258a4 left promiscuous mode
+Aug 30 08:19:47 akila-VirtualBox kernel: [55013.064888] docker0: port 1(veth9b258a4) entered disabled state
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.4477] device (vethc1d615f): driver 'veth' does not support carrier detection.
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.4514] device (veth9b258a4): driver 'veth' does not support carrier detection.
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.4561] devices added (path: /sys/devices/virtual/net/vethc1d615f, iface: vethc1d615f)
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.4580] device added (path: /sys/devices/virtual/net/vethc1d615f, iface: vethc1d615f): no ifupdown configuration found.
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.5021] devices removed (path: /sys/devices/virtual/net/vethc1d615f, iface: vethc1d615f)
+Aug 30 08:19:47 akila-VirtualBox NetworkManager[787]: <info>  [1535597387.5041] devices removed (path: /sys/devices/virtual/net/veth9b258a4, iface: veth9b258a4)
+Aug 30 08:19:47 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:47.758805533+05:30" level=info msg="Layer sha256:e59fd1de0fb3ee852ebc0fe9dba22c992dfee92b333d5fef909d2bb41b9cad63 cleaned up"
+Aug 30 08:19:51 akila-VirtualBox NetworkManager[787]: <info>  [1535597391.1969] device (docker0): link disconnected (calling deferred action)
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <warn>  [1535597396.0264] device (vethe1d40cb): failed to find device 319 'vethe1d40cb' with udev
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <info>  [1535597396.0370] manager: (vethe1d40cb): new Veth device (/org/freedesktop/NetworkManager/Devices/470)
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <warn>  [1535597396.0379] device (veth9c822f5): failed to find device 320 'veth9c822f5' with udev
+Aug 30 08:19:56 akila-VirtualBox systemd-udevd[29507]: Could not generate persistent MAC address for vethe1d40cb: No such file or directory
+Aug 30 08:19:56 akila-VirtualBox systemd-udevd[29509]: Could not generate persistent MAC address for veth9c822f5: No such file or directory
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <info>  [1535597396.0473] manager: (veth9c822f5): new Veth device (/org/freedesktop/NetworkManager/Devices/471)
+Aug 30 08:19:56 akila-VirtualBox kernel: [55021.673539] docker0: port 1(veth9c822f5) entered blocking state
+Aug 30 08:19:56 akila-VirtualBox kernel: [55021.673541] docker0: port 1(veth9c822f5) entered disabled state
+Aug 30 08:19:56 akila-VirtualBox kernel: [55021.678535] device veth9c822f5 entered promiscuous mode
+Aug 30 08:19:56 akila-VirtualBox kernel: [55021.678632] IPv6: ADDRCONF(NETDEV_UP): veth9c822f5: link is not ready
+Aug 30 08:19:56 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:56.077974228+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 08:19:56 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:56.078208902+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <info>  [1535597396.1098] devices added (path: /sys/devices/virtual/net/veth9c822f5, iface: veth9c822f5)
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <info>  [1535597396.1101] device added (path: /sys/devices/virtual/net/veth9c822f5, iface: veth9c822f5): no ifupdown configuration found.
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <info>  [1535597396.1302] devices added (path: /sys/devices/virtual/net/vethe1d40cb, iface: vethe1d40cb)
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <info>  [1535597396.1302] device added (path: /sys/devices/virtual/net/vethe1d40cb, iface: vethe1d40cb): no ifupdown configuration found.
+Aug 30 08:19:56 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:19:56+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/596a72f63672175b4a2478adb1e3de5366f88354e4110f27b3b14b1f3ce03828/shim.sock" debug=false pid=29538
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <info>  [1535597396.2982] device (vethe1d40cb): driver 'veth' does not support carrier detection.
+Aug 30 08:19:56 akila-VirtualBox kernel: [55021.932990] eth0: renamed from vethe1d40cb
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <info>  [1535597396.3149] device (veth9c822f5): link connected
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <info>  [1535597396.3153] device (docker0): link connected
+Aug 30 08:19:56 akila-VirtualBox kernel: [55021.935198] IPv6: ADDRCONF(NETDEV_CHANGE): veth9c822f5: link becomes ready
+Aug 30 08:19:56 akila-VirtualBox kernel: [55021.935236] docker0: port 1(veth9c822f5) entered blocking state
+Aug 30 08:19:56 akila-VirtualBox kernel: [55021.935238] docker0: port 1(veth9c822f5) entered forwarding state
+Aug 30 08:19:56 akila-VirtualBox NetworkManager[787]: <info>  [1535597396.3188] devices removed (path: /sys/devices/virtual/net/vethe1d40cb, iface: vethe1d40cb)
+Aug 30 08:19:57 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface veth9c822f5.IPv6 with address fe80::b48a:2eff:fe30:163b.
+Aug 30 08:19:57 akila-VirtualBox avahi-daemon[772]: New relevant interface veth9c822f5.IPv6 for mDNS.
+Aug 30 08:19:57 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::b48a:2eff:fe30:163b on veth9c822f5.*.
+Aug 30 08:46:23 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 30 08:46:33 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 30 08:46:44 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 30 08:46:54 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 30 08:57:03 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:57:03+05:30" level=info msg="shim reaped" id=596a72f63672175b4a2478adb1e3de5366f88354e4110f27b3b14b1f3ce03828
+Aug 30 08:57:03 akila-VirtualBox dockerd[1445]: time="2018-08-30T08:57:03.166882729+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 08:57:03 akila-VirtualBox NetworkManager[787]: <info>  [1535599623.2158] device (veth9c822f5): link disconnected
+Aug 30 08:57:03 akila-VirtualBox NetworkManager[787]: <info>  [1535599623.2158] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 08:57:03 akila-VirtualBox kernel: [57248.806932] docker0: port 1(veth9c822f5) entered disabled state
+Aug 30 08:57:03 akila-VirtualBox kernel: [57248.811314] vethe1d40cb: renamed from eth0
+Aug 30 08:57:03 akila-VirtualBox NetworkManager[787]: <warn>  [1535599623.2256] device (vethe1d40cb): failed to find device 319 'vethe1d40cb' with udev
+Aug 30 08:57:03 akila-VirtualBox NetworkManager[787]: <info>  [1535599623.2278] manager: (vethe1d40cb): new Veth device (/org/freedesktop/NetworkManager/Devices/472)
+Aug 30 08:57:03 akila-VirtualBox avahi-daemon[772]: Interface veth9c822f5.IPv6 no longer relevant for mDNS.
+Aug 30 08:57:03 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface veth9c822f5.IPv6 with address fe80::b48a:2eff:fe30:163b.
+Aug 30 08:57:03 akila-VirtualBox kernel: [57248.845400] docker0: port 1(veth9c822f5) entered disabled state
+Aug 30 08:57:03 akila-VirtualBox kernel: [57248.850363] device veth9c822f5 left promiscuous mode
+Aug 30 08:57:03 akila-VirtualBox kernel: [57248.850368] docker0: port 1(veth9c822f5) entered disabled state
+Aug 30 08:57:03 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::b48a:2eff:fe30:163b on veth9c822f5.
+Aug 30 08:57:03 akila-VirtualBox NetworkManager[787]: <info>  [1535599623.2718] devices added (path: /sys/devices/virtual/net/vethe1d40cb, iface: vethe1d40cb)
+Aug 30 08:57:03 akila-VirtualBox NetworkManager[787]: <info>  [1535599623.2744] device added (path: /sys/devices/virtual/net/vethe1d40cb, iface: vethe1d40cb): no ifupdown configuration found.
+Aug 30 08:57:03 akila-VirtualBox NetworkManager[787]: <info>  [1535599623.2750] device (vethe1d40cb): driver 'veth' does not support carrier detection.
+Aug 30 08:57:03 akila-VirtualBox NetworkManager[787]: <info>  [1535599623.2785] device (veth9c822f5): driver 'veth' does not support carrier detection.
+Aug 30 08:57:03 akila-VirtualBox NetworkManager[787]: <info>  [1535599623.3319] devices removed (path: /sys/devices/virtual/net/vethe1d40cb, iface: vethe1d40cb)
+Aug 30 08:57:03 akila-VirtualBox NetworkManager[787]: <info>  [1535599623.3344] devices removed (path: /sys/devices/virtual/net/veth9c822f5, iface: veth9c822f5)
+Aug 30 08:57:07 akila-VirtualBox NetworkManager[787]: <info>  [1535599627.1946] device (docker0): link disconnected (calling deferred action)
+Aug 30 09:17:01 akila-VirtualBox CRON[31034]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 30 09:21:12 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 30 09:21:23 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 30 09:21:33 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 30 09:21:43 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 30 09:36:39 akila-VirtualBox NetworkManager[787]: <info>  [1535601999.9855] device (enp0s3): link disconnected (deferring action for 4 seconds)
+Aug 30 09:36:39 akila-VirtualBox kernel: [59625.545590] e1000: enp0s3 NIC Link is Down
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0189] device (enp0s3): link connected
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0190] device (enp0s3): DHCPv4 lease renewal requested
+Aug 30 09:36:44 akila-VirtualBox kernel: [59629.578616] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0200] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 14728
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0201] dhcp4 (enp0s3): state changed bound -> done
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0217] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0256] dhcp4 (enp0s3): dhclient started with pid 31281
+Aug 30 09:36:44 akila-VirtualBox dhclient[31281]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x7922bb0e)
+Aug 30 09:36:44 akila-VirtualBox dhclient[31281]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0436]   address 10.0.2.15
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0440]   plen 24 (255.255.255.0)
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0442]   gateway 10.0.2.2
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0444]   server identifier 10.0.2.2
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0448]   lease time 86400
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0450] dhcp4 (enp0s3): state changed unknown -> bound
+Aug 30 09:36:44 akila-VirtualBox dnsmasq[1214]: setting upstream servers from DBus
+Aug 30 09:36:44 akila-VirtualBox NetworkManager[787]: <info>  [1535602004.0474] dns-mgr: Writing DNS information to /sbin/resolvconf
+Aug 30 09:36:46 akila-VirtualBox dbus[698]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 30 09:36:46 akila-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug 30 09:36:46 akila-VirtualBox dhclient[31281]: bound to 10.0.2.15 -- renewal in 36998 seconds.
+Aug 30 09:36:48 akila-VirtualBox NetworkManager[787]: <info>  [1535602008.0490] device (enp0s3): link disconnected (deferring action for 4 seconds)
+Aug 30 09:36:48 akila-VirtualBox kernel: [59633.609009] e1000: enp0s3 NIC Link is Down
+Aug 30 09:36:49 akila-VirtualBox dbus[698]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 30 09:36:49 akila-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Aug 30 09:36:50 akila-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Aug 30 09:36:50 akila-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.0823] device (enp0s3): link connected
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.0825] device (enp0s3): DHCPv4 lease renewal requested
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.0836] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 31281
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.0836] dhcp4 (enp0s3): state changed bound -> done
+Aug 30 09:36:52 akila-VirtualBox kernel: [59637.641837] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.0853] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.0882] dhcp4 (enp0s3): dhclient started with pid 31353
+Aug 30 09:36:52 akila-VirtualBox dhclient[31353]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x4f5d9997)
+Aug 30 09:36:52 akila-VirtualBox dhclient[31353]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.1071]   address 10.0.2.15
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.1074]   plen 24 (255.255.255.0)
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.1076]   gateway 10.0.2.2
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.1077]   server identifier 10.0.2.2
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.1079]   lease time 86400
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.1080]   nameserver '10.200.50.100'
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.1081]   nameserver '10.201.50.200'
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.1082]   domain name 'wipro.com'
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.1084] dhcp4 (enp0s3): state changed unknown -> bound
+Aug 30 09:36:52 akila-VirtualBox dnsmasq[1214]: setting upstream servers from DBus
+Aug 30 09:36:52 akila-VirtualBox dnsmasq[1214]: using nameserver 10.200.50.100#53(via enp0s3)
+Aug 30 09:36:52 akila-VirtualBox dnsmasq[1214]: using nameserver 10.201.50.200#53(via enp0s3)
+Aug 30 09:36:52 akila-VirtualBox NetworkManager[787]: <info>  [1535602012.1112] dns-mgr: Writing DNS information to /sbin/resolvconf
+Aug 30 09:36:52 akila-VirtualBox nm-dispatcher: req:2 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Aug 30 09:36:52 akila-VirtualBox nm-dispatcher: req:2 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Aug 30 09:36:52 akila-VirtualBox dhclient[31353]: bound to 10.0.2.15 -- renewal in 37648 seconds.
+Aug 30 09:56:02 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 30 09:56:12 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 30 09:56:22 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 30 09:56:32 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 30 10:17:01 akila-VirtualBox CRON[31962]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 30 10:30:51 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 30 10:31:01 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 30 10:31:11 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 30 10:31:22 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 30 10:32:47 akila-VirtualBox org.gnome.zeitgeist.SimpleIndexer[2421]: ** (zeitgeist-fts:2957): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Aug 30 10:33:11 akila-VirtualBox gnome-session[2539]: (gedit:32548): GLib-GObject-WARNING **: invalid unclassed pointer in cast to 'GeditOpenDocumentSelector'
+Aug 30 10:33:11 akila-VirtualBox gnome-session[2539]: (gedit:32548): Gtk-CRITICAL **: gtk_list_store_clear: assertion 'GTK_IS_LIST_STORE (list_store)' failed
+Aug 30 10:33:11 akila-VirtualBox gnome-session[2539]: (gedit:32548): Gtk-CRITICAL **: gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+Aug 30 10:33:11 akila-VirtualBox gnome-session[2539]: (gedit:32548): Gtk-CRITICAL **: gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+Aug 30 10:33:11 akila-VirtualBox gnome-session[2539]: (gedit:32548): GLib-GObject-WARNING **: invalid unclassed pointer in cast to 'GeditOpenDocumentSelector'
+Aug 30 10:33:11 akila-VirtualBox gnome-session[2539]: (gedit:32548): Gtk-CRITICAL **: gtk_list_store_clear: assertion 'GTK_IS_LIST_STORE (list_store)' failed
+Aug 30 10:33:11 akila-VirtualBox gnome-session[2539]: (gedit:32548): Gtk-CRITICAL **: gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+Aug 30 10:33:11 akila-VirtualBox gnome-session[2539]: (gedit:32548): Gtk-CRITICAL **: gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <warn>  [1535605520.1659] device (vethfd531cd): failed to find device 321 'vethfd531cd' with udev
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <info>  [1535605520.1665] manager: (vethfd531cd): new Veth device (/org/freedesktop/NetworkManager/Devices/473)
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <warn>  [1535605520.1702] device (vethbed6c5c): failed to find device 322 'vethbed6c5c' with udev
+Aug 30 10:35:20 akila-VirtualBox systemd-udevd[32670]: Could not generate persistent MAC address for vethfd531cd: No such file or directory
+Aug 30 10:35:20 akila-VirtualBox systemd-udevd[32672]: Could not generate persistent MAC address for vethbed6c5c: No such file or directory
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <info>  [1535605520.1792] manager: (vethbed6c5c): new Veth device (/org/freedesktop/NetworkManager/Devices/474)
+Aug 30 10:35:20 akila-VirtualBox kernel: [63145.718104] docker0: port 1(vethbed6c5c) entered blocking state
+Aug 30 10:35:20 akila-VirtualBox kernel: [63145.718106] docker0: port 1(vethbed6c5c) entered disabled state
+Aug 30 10:35:20 akila-VirtualBox kernel: [63145.718203] device vethbed6c5c entered promiscuous mode
+Aug 30 10:35:20 akila-VirtualBox kernel: [63145.718288] IPv6: ADDRCONF(NETDEV_UP): vethbed6c5c: link is not ready
+Aug 30 10:35:20 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:35:20.214639361+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 10:35:20 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:35:20.214919309+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <info>  [1535605520.2329] devices added (path: /sys/devices/virtual/net/vethfd531cd, iface: vethfd531cd)
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <info>  [1535605520.2332] device added (path: /sys/devices/virtual/net/vethfd531cd, iface: vethfd531cd): no ifupdown configuration found.
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <info>  [1535605520.2533] devices added (path: /sys/devices/virtual/net/vethbed6c5c, iface: vethbed6c5c)
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <info>  [1535605520.2533] device added (path: /sys/devices/virtual/net/vethbed6c5c, iface: vethbed6c5c): no ifupdown configuration found.
+Aug 30 10:35:20 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:35:20+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/591ec12bcce771c355b0ce6f3f96656b34a2228c1976bcfa3ef4cd52349f805c/shim.sock" debug=false pid=32694
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <info>  [1535605520.8911] devices removed (path: /sys/devices/virtual/net/vethfd531cd, iface: vethfd531cd)
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <info>  [1535605520.8911] device (vethfd531cd): driver 'veth' does not support carrier detection.
+Aug 30 10:35:20 akila-VirtualBox kernel: [63146.416208] eth0: renamed from vethfd531cd
+Aug 30 10:35:20 akila-VirtualBox kernel: [63146.416757] IPv6: ADDRCONF(NETDEV_CHANGE): vethbed6c5c: link becomes ready
+Aug 30 10:35:20 akila-VirtualBox kernel: [63146.416798] docker0: port 1(vethbed6c5c) entered blocking state
+Aug 30 10:35:20 akila-VirtualBox kernel: [63146.416799] docker0: port 1(vethbed6c5c) entered forwarding state
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <info>  [1535605520.9056] device (vethbed6c5c): link connected
+Aug 30 10:35:20 akila-VirtualBox NetworkManager[787]: <info>  [1535605520.9060] device (docker0): link connected
+Aug 30 10:35:22 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface vethbed6c5c.IPv6 with address fe80::20c4:bff:fed7:63b5.
+Aug 30 10:35:22 akila-VirtualBox avahi-daemon[772]: New relevant interface vethbed6c5c.IPv6 for mDNS.
+Aug 30 10:35:22 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::20c4:bff:fed7:63b5 on vethbed6c5c.*.
+Aug 30 10:36:10 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:36:10+05:30" level=info msg="shim reaped" id=591ec12bcce771c355b0ce6f3f96656b34a2228c1976bcfa3ef4cd52349f805c
+Aug 30 10:36:10 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:36:10.818602594+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 10:36:10 akila-VirtualBox kernel: [63196.349028] docker0: port 1(vethbed6c5c) entered disabled state
+Aug 30 10:36:10 akila-VirtualBox NetworkManager[787]: <info>  [1535605570.8366] device (vethbed6c5c): link disconnected
+Aug 30 10:36:10 akila-VirtualBox NetworkManager[787]: <info>  [1535605570.8369] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 10:36:10 akila-VirtualBox kernel: [63196.354226] vethfd531cd: renamed from eth0
+Aug 30 10:36:10 akila-VirtualBox NetworkManager[787]: <warn>  [1535605570.8497] device (vethfd531cd): failed to find device 321 'vethfd531cd' with udev
+Aug 30 10:36:10 akila-VirtualBox NetworkManager[787]: <info>  [1535605570.8517] manager: (vethfd531cd): new Veth device (/org/freedesktop/NetworkManager/Devices/475)
+Aug 30 10:36:10 akila-VirtualBox avahi-daemon[772]: Interface vethbed6c5c.IPv6 no longer relevant for mDNS.
+Aug 30 10:36:10 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface vethbed6c5c.IPv6 with address fe80::20c4:bff:fed7:63b5.
+Aug 30 10:36:10 akila-VirtualBox kernel: [63196.388444] docker0: port 1(vethbed6c5c) entered disabled state
+Aug 30 10:36:10 akila-VirtualBox kernel: [63196.398171] device vethbed6c5c left promiscuous mode
+Aug 30 10:36:10 akila-VirtualBox kernel: [63196.398177] docker0: port 1(vethbed6c5c) entered disabled state
+Aug 30 10:36:10 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::20c4:bff:fed7:63b5 on vethbed6c5c.
+Aug 30 10:36:10 akila-VirtualBox NetworkManager[787]: <info>  [1535605570.8982] devices added (path: /sys/devices/virtual/net/vethfd531cd, iface: vethfd531cd)
+Aug 30 10:36:10 akila-VirtualBox NetworkManager[787]: <info>  [1535605570.8996] device added (path: /sys/devices/virtual/net/vethfd531cd, iface: vethfd531cd): no ifupdown configuration found.
+Aug 30 10:36:10 akila-VirtualBox NetworkManager[787]: <info>  [1535605570.9255] device (vethfd531cd): driver 'veth' does not support carrier detection.
+Aug 30 10:36:10 akila-VirtualBox NetworkManager[787]: <info>  [1535605570.9268] device (vethbed6c5c): driver 'veth' does not support carrier detection.
+Aug 30 10:36:10 akila-VirtualBox NetworkManager[787]: <info>  [1535605570.9656] devices removed (path: /sys/devices/virtual/net/vethfd531cd, iface: vethfd531cd)
+Aug 30 10:36:10 akila-VirtualBox NetworkManager[787]: <info>  [1535605570.9703] devices removed (path: /sys/devices/virtual/net/vethbed6c5c, iface: vethbed6c5c)
+Aug 30 10:36:15 akila-VirtualBox NetworkManager[787]: <info>  [1535605575.1935] device (docker0): link disconnected (calling deferred action)
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <warn>  [1535605598.3136] device (veth25c9550): failed to find device 323 'veth25c9550' with udev
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605598.3200] manager: (veth25c9550): new Veth device (/org/freedesktop/NetworkManager/Devices/476)
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <warn>  [1535605598.3265] device (veth2f3bcbe): failed to find device 324 'veth2f3bcbe' with udev
+Aug 30 10:36:38 akila-VirtualBox systemd-udevd[413]: Could not generate persistent MAC address for veth25c9550: No such file or directory
+Aug 30 10:36:38 akila-VirtualBox systemd-udevd[415]: Could not generate persistent MAC address for veth2f3bcbe: No such file or directory
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605598.3387] manager: (veth2f3bcbe): new Veth device (/org/freedesktop/NetworkManager/Devices/477)
+Aug 30 10:36:38 akila-VirtualBox kernel: [63223.858441] docker0: port 1(veth2f3bcbe) entered blocking state
+Aug 30 10:36:38 akila-VirtualBox kernel: [63223.858442] docker0: port 1(veth2f3bcbe) entered disabled state
+Aug 30 10:36:38 akila-VirtualBox kernel: [63223.858567] device veth2f3bcbe entered promiscuous mode
+Aug 30 10:36:38 akila-VirtualBox kernel: [63223.858772] IPv6: ADDRCONF(NETDEV_UP): veth2f3bcbe: link is not ready
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605598.3822] devices added (path: /sys/devices/virtual/net/veth25c9550, iface: veth25c9550)
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605598.3822] device added (path: /sys/devices/virtual/net/veth25c9550, iface: veth25c9550): no ifupdown configuration found.
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605598.4062] devices added (path: /sys/devices/virtual/net/veth2f3bcbe, iface: veth2f3bcbe)
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605598.4062] device added (path: /sys/devices/virtual/net/veth2f3bcbe, iface: veth2f3bcbe): no ifupdown configuration found.
+Aug 30 10:36:38 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:36:38.751107556+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 10:36:38 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:36:38.751655637+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 10:36:38 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:36:38+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/9e1fdcfee05a800dc49321faf9d9f47759ea3cbdb8ee0de20566fe30158555df/shim.sock" debug=false pid=437
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605598.9359] devices removed (path: /sys/devices/virtual/net/veth25c9550, iface: veth25c9550)
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605598.9359] device (veth25c9550): driver 'veth' does not support carrier detection.
+Aug 30 10:36:38 akila-VirtualBox kernel: [63224.459847] eth0: renamed from veth25c9550
+Aug 30 10:36:38 akila-VirtualBox kernel: [63224.460490] IPv6: ADDRCONF(NETDEV_CHANGE): veth2f3bcbe: link becomes ready
+Aug 30 10:36:38 akila-VirtualBox kernel: [63224.460530] docker0: port 1(veth2f3bcbe) entered blocking state
+Aug 30 10:36:38 akila-VirtualBox kernel: [63224.460531] docker0: port 1(veth2f3bcbe) entered forwarding state
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605598.9484] device (veth2f3bcbe): link connected
+Aug 30 10:36:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605598.9489] device (docker0): link connected
+Aug 30 10:36:40 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface veth2f3bcbe.IPv6 with address fe80::6042:aff:fe18:eca3.
+Aug 30 10:36:40 akila-VirtualBox avahi-daemon[772]: New relevant interface veth2f3bcbe.IPv6 for mDNS.
+Aug 30 10:36:40 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::6042:aff:fe18:eca3 on veth2f3bcbe.*.
+Aug 30 10:36:45 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:36:45+05:30" level=info msg="shim reaped" id=9e1fdcfee05a800dc49321faf9d9f47759ea3cbdb8ee0de20566fe30158555df
+Aug 30 10:36:45 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:36:45.628519040+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 10:36:46 akila-VirtualBox NetworkManager[787]: <info>  [1535605606.5558] device (veth2f3bcbe): link disconnected
+Aug 30 10:36:46 akila-VirtualBox NetworkManager[787]: <info>  [1535605606.5558] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 10:36:46 akila-VirtualBox kernel: [63232.068005] docker0: port 1(veth2f3bcbe) entered disabled state
+Aug 30 10:36:46 akila-VirtualBox kernel: [63232.069974] veth25c9550: renamed from eth0
+Aug 30 10:36:46 akila-VirtualBox NetworkManager[787]: <warn>  [1535605606.5657] device (veth25c9550): failed to find device 323 'veth25c9550' with udev
+Aug 30 10:36:46 akila-VirtualBox NetworkManager[787]: <info>  [1535605606.5675] manager: (veth25c9550): new Veth device (/org/freedesktop/NetworkManager/Devices/478)
+Aug 30 10:36:46 akila-VirtualBox NetworkManager[787]: <info>  [1535605606.5954] devices added (path: /sys/devices/virtual/net/veth25c9550, iface: veth25c9550)
+Aug 30 10:36:46 akila-VirtualBox NetworkManager[787]: <info>  [1535605606.5985] device added (path: /sys/devices/virtual/net/veth25c9550, iface: veth25c9550): no ifupdown configuration found.
+Aug 30 10:36:47 akila-VirtualBox avahi-daemon[772]: Interface veth2f3bcbe.IPv6 no longer relevant for mDNS.
+Aug 30 10:36:47 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface veth2f3bcbe.IPv6 with address fe80::6042:aff:fe18:eca3.
+Aug 30 10:36:47 akila-VirtualBox kernel: [63232.804084] docker0: port 1(veth2f3bcbe) entered disabled state
+Aug 30 10:36:47 akila-VirtualBox kernel: [63232.812492] device veth2f3bcbe left promiscuous mode
+Aug 30 10:36:47 akila-VirtualBox kernel: [63232.812498] docker0: port 1(veth2f3bcbe) entered disabled state
+Aug 30 10:36:47 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::6042:aff:fe18:eca3 on veth2f3bcbe.
+Aug 30 10:36:47 akila-VirtualBox NetworkManager[787]: <info>  [1535605607.3033] device (veth25c9550): driver 'veth' does not support carrier detection.
+Aug 30 10:36:47 akila-VirtualBox NetworkManager[787]: <info>  [1535605607.3053] device (veth2f3bcbe): driver 'veth' does not support carrier detection.
+Aug 30 10:36:47 akila-VirtualBox NetworkManager[787]: <info>  [1535605607.3307] devices removed (path: /sys/devices/virtual/net/veth25c9550, iface: veth25c9550)
+Aug 30 10:36:47 akila-VirtualBox NetworkManager[787]: <info>  [1535605607.3653] devices removed (path: /sys/devices/virtual/net/veth2f3bcbe, iface: veth2f3bcbe)
+Aug 30 10:36:51 akila-VirtualBox NetworkManager[787]: <info>  [1535605611.1960] device (docker0): link disconnected (calling deferred action)
+Aug 30 10:37:20 akila-VirtualBox org.gnome.zeitgeist.SimpleIndexer[2421]: ** (zeitgeist-fts:2957): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <warn>  [1535605711.1898] device (vethdef4ff8): failed to find device 325 'vethdef4ff8' with udev
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <info>  [1535605711.1905] manager: (vethdef4ff8): new Veth device (/org/freedesktop/NetworkManager/Devices/479)
+Aug 30 10:38:31 akila-VirtualBox systemd-udevd[708]: Could not generate persistent MAC address for vethdef4ff8: No such file or directory
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <warn>  [1535605711.1952] device (veth2fdd7a8): failed to find device 326 'veth2fdd7a8' with udev
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <info>  [1535605711.1999] manager: (veth2fdd7a8): new Veth device (/org/freedesktop/NetworkManager/Devices/480)
+Aug 30 10:38:31 akila-VirtualBox systemd-udevd[710]: Could not generate persistent MAC address for veth2fdd7a8: No such file or directory
+Aug 30 10:38:31 akila-VirtualBox kernel: [63336.727833] docker0: port 1(veth2fdd7a8) entered blocking state
+Aug 30 10:38:31 akila-VirtualBox kernel: [63336.727835] docker0: port 1(veth2fdd7a8) entered disabled state
+Aug 30 10:38:31 akila-VirtualBox kernel: [63336.727931] device veth2fdd7a8 entered promiscuous mode
+Aug 30 10:38:31 akila-VirtualBox kernel: [63336.728016] IPv6: ADDRCONF(NETDEV_UP): veth2fdd7a8: link is not ready
+Aug 30 10:38:31 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:38:31.225580614+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 10:38:31 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:38:31.225802342+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <info>  [1535605711.2718] devices added (path: /sys/devices/virtual/net/vethdef4ff8, iface: vethdef4ff8)
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <info>  [1535605711.2721] device added (path: /sys/devices/virtual/net/vethdef4ff8, iface: vethdef4ff8): no ifupdown configuration found.
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <info>  [1535605711.2829] devices added (path: /sys/devices/virtual/net/veth2fdd7a8, iface: veth2fdd7a8)
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <info>  [1535605711.2830] device added (path: /sys/devices/virtual/net/veth2fdd7a8, iface: veth2fdd7a8): no ifupdown configuration found.
+Aug 30 10:38:31 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:38:31+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/a24df0298f4dbc2f89f21ed394359e53f6e6ed4979e1ecdab0be807d9dd72509/shim.sock" debug=false pid=729
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <info>  [1535605711.4467] devices removed (path: /sys/devices/virtual/net/vethdef4ff8, iface: vethdef4ff8)
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <info>  [1535605711.4468] device (vethdef4ff8): driver 'veth' does not support carrier detection.
+Aug 30 10:38:31 akila-VirtualBox kernel: [63336.970979] eth0: renamed from vethdef4ff8
+Aug 30 10:38:31 akila-VirtualBox kernel: [63336.971462] IPv6: ADDRCONF(NETDEV_CHANGE): veth2fdd7a8: link becomes ready
+Aug 30 10:38:31 akila-VirtualBox kernel: [63336.971512] docker0: port 1(veth2fdd7a8) entered blocking state
+Aug 30 10:38:31 akila-VirtualBox kernel: [63336.971513] docker0: port 1(veth2fdd7a8) entered forwarding state
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <info>  [1535605711.4619] device (veth2fdd7a8): link connected
+Aug 30 10:38:31 akila-VirtualBox NetworkManager[787]: <info>  [1535605711.4623] device (docker0): link connected
+Aug 30 10:38:32 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface veth2fdd7a8.IPv6 with address fe80::9868:4eff:fe8f:c627.
+Aug 30 10:38:32 akila-VirtualBox avahi-daemon[772]: New relevant interface veth2fdd7a8.IPv6 for mDNS.
+Aug 30 10:38:32 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::9868:4eff:fe8f:c627 on veth2fdd7a8.*.
+Aug 30 10:39:14 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:14+05:30" level=info msg="shim reaped" id=a24df0298f4dbc2f89f21ed394359e53f6e6ed4979e1ecdab0be807d9dd72509
+Aug 30 10:39:14 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:14.401280799+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 10:39:14 akila-VirtualBox kernel: [63379.926184] docker0: port 1(veth2fdd7a8) entered disabled state
+Aug 30 10:39:14 akila-VirtualBox NetworkManager[787]: <info>  [1535605754.4169] device (veth2fdd7a8): link disconnected
+Aug 30 10:39:14 akila-VirtualBox NetworkManager[787]: <info>  [1535605754.4170] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 10:39:14 akila-VirtualBox kernel: [63379.933759] vethdef4ff8: renamed from eth0
+Aug 30 10:39:14 akila-VirtualBox NetworkManager[787]: <warn>  [1535605754.4297] device (vethdef4ff8): failed to find device 325 'vethdef4ff8' with udev
+Aug 30 10:39:14 akila-VirtualBox NetworkManager[787]: <info>  [1535605754.4310] manager: (vethdef4ff8): new Veth device (/org/freedesktop/NetworkManager/Devices/481)
+Aug 30 10:39:14 akila-VirtualBox NetworkManager[787]: <info>  [1535605754.4559] devices added (path: /sys/devices/virtual/net/vethdef4ff8, iface: vethdef4ff8)
+Aug 30 10:39:14 akila-VirtualBox NetworkManager[787]: <info>  [1535605754.4563] device added (path: /sys/devices/virtual/net/vethdef4ff8, iface: vethdef4ff8): no ifupdown configuration found.
+Aug 30 10:39:14 akila-VirtualBox avahi-daemon[772]: Interface veth2fdd7a8.IPv6 no longer relevant for mDNS.
+Aug 30 10:39:14 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface veth2fdd7a8.IPv6 with address fe80::9868:4eff:fe8f:c627.
+Aug 30 10:39:14 akila-VirtualBox kernel: [63379.975016] docker0: port 1(veth2fdd7a8) entered disabled state
+Aug 30 10:39:14 akila-VirtualBox kernel: [63379.982973] device veth2fdd7a8 left promiscuous mode
+Aug 30 10:39:14 akila-VirtualBox kernel: [63379.982978] docker0: port 1(veth2fdd7a8) entered disabled state
+Aug 30 10:39:14 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::9868:4eff:fe8f:c627 on veth2fdd7a8.
+Aug 30 10:39:14 akila-VirtualBox NetworkManager[787]: <info>  [1535605754.4829] device (vethdef4ff8): driver 'veth' does not support carrier detection.
+Aug 30 10:39:14 akila-VirtualBox NetworkManager[787]: <info>  [1535605754.4848] device (veth2fdd7a8): driver 'veth' does not support carrier detection.
+Aug 30 10:39:14 akila-VirtualBox NetworkManager[787]: <info>  [1535605754.5330] devices removed (path: /sys/devices/virtual/net/veth2fdd7a8, iface: veth2fdd7a8)
+Aug 30 10:39:14 akila-VirtualBox NetworkManager[787]: <info>  [1535605754.5352] devices removed (path: /sys/devices/virtual/net/vethdef4ff8, iface: vethdef4ff8)
+Aug 30 10:39:18 akila-VirtualBox NetworkManager[787]: <info>  [1535605758.1957] device (docker0): link disconnected (calling deferred action)
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <warn>  [1535605773.2372] device (veth6e511d7): failed to find device 327 'veth6e511d7' with udev
+Aug 30 10:39:33 akila-VirtualBox systemd-udevd[922]: Could not generate persistent MAC address for veth6e511d7: No such file or directory
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <info>  [1535605773.2417] manager: (veth6e511d7): new Veth device (/org/freedesktop/NetworkManager/Devices/482)
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <warn>  [1535605773.2465] device (vethd606f0c): failed to find device 328 'vethd606f0c' with udev
+Aug 30 10:39:33 akila-VirtualBox systemd-udevd[924]: Could not generate persistent MAC address for vethd606f0c: No such file or directory
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <info>  [1535605773.2591] manager: (vethd606f0c): new Veth device (/org/freedesktop/NetworkManager/Devices/483)
+Aug 30 10:39:33 akila-VirtualBox kernel: [63398.775408] docker0: port 1(vethd606f0c) entered blocking state
+Aug 30 10:39:33 akila-VirtualBox kernel: [63398.775409] docker0: port 1(vethd606f0c) entered disabled state
+Aug 30 10:39:33 akila-VirtualBox kernel: [63398.775528] device vethd606f0c entered promiscuous mode
+Aug 30 10:39:33 akila-VirtualBox kernel: [63398.775703] IPv6: ADDRCONF(NETDEV_UP): vethd606f0c: link is not ready
+Aug 30 10:39:33 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:33.291377059+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 10:39:33 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:33.291643076+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <info>  [1535605773.3343] devices added (path: /sys/devices/virtual/net/veth6e511d7, iface: veth6e511d7)
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <info>  [1535605773.3343] device added (path: /sys/devices/virtual/net/veth6e511d7, iface: veth6e511d7): no ifupdown configuration found.
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <info>  [1535605773.3633] devices added (path: /sys/devices/virtual/net/vethd606f0c, iface: vethd606f0c)
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <info>  [1535605773.3658] device added (path: /sys/devices/virtual/net/vethd606f0c, iface: vethd606f0c): no ifupdown configuration found.
+Aug 30 10:39:33 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:33+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/3d9be1bd591b2a002adf3f5992a60b9d046ddcaf652b843b2a543d14e413558c/shim.sock" debug=false pid=944
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <info>  [1535605773.5700] devices removed (path: /sys/devices/virtual/net/veth6e511d7, iface: veth6e511d7)
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <info>  [1535605773.5700] device (veth6e511d7): driver 'veth' does not support carrier detection.
+Aug 30 10:39:33 akila-VirtualBox kernel: [63399.091882] eth0: renamed from veth6e511d7
+Aug 30 10:39:33 akila-VirtualBox kernel: [63399.093957] IPv6: ADDRCONF(NETDEV_CHANGE): vethd606f0c: link becomes ready
+Aug 30 10:39:33 akila-VirtualBox kernel: [63399.094000] docker0: port 1(vethd606f0c) entered blocking state
+Aug 30 10:39:33 akila-VirtualBox kernel: [63399.094002] docker0: port 1(vethd606f0c) entered forwarding state
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <info>  [1535605773.5844] device (vethd606f0c): link connected
+Aug 30 10:39:33 akila-VirtualBox NetworkManager[787]: <info>  [1535605773.5855] device (docker0): link connected
+Aug 30 10:39:34 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface vethd606f0c.IPv6 with address fe80::a841:c8ff:fe5c:5531.
+Aug 30 10:39:34 akila-VirtualBox avahi-daemon[772]: New relevant interface vethd606f0c.IPv6 for mDNS.
+Aug 30 10:39:34 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::a841:c8ff:fe5c:5531 on vethd606f0c.*.
+Aug 30 10:39:38 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:38+05:30" level=info msg="shim reaped" id=3d9be1bd591b2a002adf3f5992a60b9d046ddcaf652b843b2a543d14e413558c
+Aug 30 10:39:38 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:38.801102169+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 10:39:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605778.8070] device (vethd606f0c): link disconnected
+Aug 30 10:39:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605778.8070] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 10:39:38 akila-VirtualBox kernel: [63404.316895] docker0: port 1(vethd606f0c) entered disabled state
+Aug 30 10:39:38 akila-VirtualBox kernel: [63404.321617] veth6e511d7: renamed from eth0
+Aug 30 10:39:38 akila-VirtualBox NetworkManager[787]: <warn>  [1535605778.8172] device (veth6e511d7): failed to find device 327 'veth6e511d7' with udev
+Aug 30 10:39:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605778.8182] manager: (veth6e511d7): new Veth device (/org/freedesktop/NetworkManager/Devices/484)
+Aug 30 10:39:38 akila-VirtualBox avahi-daemon[772]: Interface vethd606f0c.IPv6 no longer relevant for mDNS.
+Aug 30 10:39:38 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface vethd606f0c.IPv6 with address fe80::a841:c8ff:fe5c:5531.
+Aug 30 10:39:38 akila-VirtualBox kernel: [63404.356671] docker0: port 1(vethd606f0c) entered disabled state
+Aug 30 10:39:38 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::a841:c8ff:fe5c:5531 on vethd606f0c.
+Aug 30 10:39:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605778.8552] devices added (path: /sys/devices/virtual/net/veth6e511d7, iface: veth6e511d7)
+Aug 30 10:39:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605778.8557] device added (path: /sys/devices/virtual/net/veth6e511d7, iface: veth6e511d7): no ifupdown configuration found.
+Aug 30 10:39:38 akila-VirtualBox kernel: [63404.363072] device vethd606f0c left promiscuous mode
+Aug 30 10:39:38 akila-VirtualBox kernel: [63404.363076] docker0: port 1(vethd606f0c) entered disabled state
+Aug 30 10:39:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605778.8586] device (veth6e511d7): driver 'veth' does not support carrier detection.
+Aug 30 10:39:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605778.8617] device (vethd606f0c): driver 'veth' does not support carrier detection.
+Aug 30 10:39:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605778.9050] devices removed (path: /sys/devices/virtual/net/veth6e511d7, iface: veth6e511d7)
+Aug 30 10:39:38 akila-VirtualBox NetworkManager[787]: <info>  [1535605778.9071] devices removed (path: /sys/devices/virtual/net/vethd606f0c, iface: vethd606f0c)
+Aug 30 10:39:39 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:39.196258335+05:30" level=info msg="Layer sha256:6dd6c567aac5260ecea0c0a7ca0b18dc54718ab1195a0530e0340fab21ffbaaa cleaned up"
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <warn>  [1535605781.6777] device (veth4e1381c): failed to find device 329 'veth4e1381c' with udev
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <info>  [1535605781.6812] manager: (veth4e1381c): new Veth device (/org/freedesktop/NetworkManager/Devices/485)
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <warn>  [1535605781.6817] device (veth35e37cb): failed to find device 330 'veth35e37cb' with udev
+Aug 30 10:39:41 akila-VirtualBox systemd-udevd[1123]: Could not generate persistent MAC address for veth4e1381c: No such file or directory
+Aug 30 10:39:41 akila-VirtualBox systemd-udevd[1125]: Could not generate persistent MAC address for veth35e37cb: No such file or directory
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <info>  [1535605781.6886] manager: (veth35e37cb): new Veth device (/org/freedesktop/NetworkManager/Devices/486)
+Aug 30 10:39:41 akila-VirtualBox kernel: [63407.212756] docker0: port 1(veth35e37cb) entered blocking state
+Aug 30 10:39:41 akila-VirtualBox kernel: [63407.212759] docker0: port 1(veth35e37cb) entered disabled state
+Aug 30 10:39:41 akila-VirtualBox kernel: [63407.212885] device veth35e37cb entered promiscuous mode
+Aug 30 10:39:41 akila-VirtualBox kernel: [63407.212996] IPv6: ADDRCONF(NETDEV_UP): veth35e37cb: link is not ready
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <info>  [1535605781.7397] devices added (path: /sys/devices/virtual/net/veth4e1381c, iface: veth4e1381c)
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <info>  [1535605781.7397] device added (path: /sys/devices/virtual/net/veth4e1381c, iface: veth4e1381c): no ifupdown configuration found.
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <info>  [1535605781.7459] devices added (path: /sys/devices/virtual/net/veth35e37cb, iface: veth35e37cb)
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <info>  [1535605781.7461] device added (path: /sys/devices/virtual/net/veth35e37cb, iface: veth35e37cb): no ifupdown configuration found.
+Aug 30 10:39:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:41.843021297+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 10:39:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:41.843130044+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 10:39:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:41+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/bc6497128eb004fe75b9a5248178d10fcb3be45bd6e372425ebf09854873d75f/shim.sock" debug=false pid=1145
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <info>  [1535605781.9619] devices removed (path: /sys/devices/virtual/net/veth4e1381c, iface: veth4e1381c)
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <info>  [1535605781.9619] device (veth4e1381c): driver 'veth' does not support carrier detection.
+Aug 30 10:39:41 akila-VirtualBox kernel: [63407.484582] eth0: renamed from veth4e1381c
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <info>  [1535605781.9777] device (veth35e37cb): link connected
+Aug 30 10:39:41 akila-VirtualBox NetworkManager[787]: <info>  [1535605781.9792] device (docker0): link connected
+Aug 30 10:39:41 akila-VirtualBox kernel: [63407.487006] IPv6: ADDRCONF(NETDEV_CHANGE): veth35e37cb: link becomes ready
+Aug 30 10:39:41 akila-VirtualBox kernel: [63407.487054] docker0: port 1(veth35e37cb) entered blocking state
+Aug 30 10:39:41 akila-VirtualBox kernel: [63407.487055] docker0: port 1(veth35e37cb) entered forwarding state
+Aug 30 10:39:42 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:42+05:30" level=info msg="shim reaped" id=bc6497128eb004fe75b9a5248178d10fcb3be45bd6e372425ebf09854873d75f
+Aug 30 10:39:42 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:42.098966131+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 10:39:42 akila-VirtualBox kernel: [63407.617030] docker0: port 1(veth35e37cb) entered disabled state
+Aug 30 10:39:42 akila-VirtualBox NetworkManager[787]: <info>  [1535605782.1070] device (veth35e37cb): link disconnected
+Aug 30 10:39:42 akila-VirtualBox NetworkManager[787]: <info>  [1535605782.1071] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 10:39:42 akila-VirtualBox kernel: [63407.621313] veth4e1381c: renamed from eth0
+Aug 30 10:39:42 akila-VirtualBox NetworkManager[787]: <warn>  [1535605782.1182] device (veth4e1381c): failed to find device 329 'veth4e1381c' with udev
+Aug 30 10:39:42 akila-VirtualBox NetworkManager[787]: <info>  [1535605782.1223] manager: (veth4e1381c): new Veth device (/org/freedesktop/NetworkManager/Devices/487)
+Aug 30 10:39:42 akila-VirtualBox kernel: [63407.659478] docker0: port 1(veth35e37cb) entered disabled state
+Aug 30 10:39:42 akila-VirtualBox kernel: [63407.667531] device veth35e37cb left promiscuous mode
+Aug 30 10:39:42 akila-VirtualBox kernel: [63407.667536] docker0: port 1(veth35e37cb) entered disabled state
+Aug 30 10:39:42 akila-VirtualBox NetworkManager[787]: <info>  [1535605782.1667] devices added (path: /sys/devices/virtual/net/veth4e1381c, iface: veth4e1381c)
+Aug 30 10:39:42 akila-VirtualBox NetworkManager[787]: <info>  [1535605782.1672] device added (path: /sys/devices/virtual/net/veth4e1381c, iface: veth4e1381c): no ifupdown configuration found.
+Aug 30 10:39:42 akila-VirtualBox NetworkManager[787]: <info>  [1535605782.1700] device (veth4e1381c): driver 'veth' does not support carrier detection.
+Aug 30 10:39:42 akila-VirtualBox NetworkManager[787]: <info>  [1535605782.1764] device (veth35e37cb): driver 'veth' does not support carrier detection.
+Aug 30 10:39:42 akila-VirtualBox NetworkManager[787]: <info>  [1535605782.2174] devices removed (path: /sys/devices/virtual/net/veth4e1381c, iface: veth4e1381c)
+Aug 30 10:39:42 akila-VirtualBox NetworkManager[787]: <info>  [1535605782.2286] devices removed (path: /sys/devices/virtual/net/veth35e37cb, iface: veth35e37cb)
+Aug 30 10:39:42 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:39:42.700567496+05:30" level=info msg="Layer sha256:4f3e95a8b011da526b05c5f6aeb9510a8fb5a74d09e018fabc73095bcad5a1ae cleaned up"
+Aug 30 10:39:46 akila-VirtualBox NetworkManager[787]: <info>  [1535605786.1980] device (docker0): link disconnected (calling deferred action)
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <warn>  [1535605807.5718] device (vetha808e50): failed to find device 331 'vetha808e50' with udev
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <info>  [1535605807.5731] manager: (vetha808e50): new Veth device (/org/freedesktop/NetworkManager/Devices/488)
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <warn>  [1535605807.5776] device (vethf24a9bc): failed to find device 332 'vethf24a9bc' with udev
+Aug 30 10:40:07 akila-VirtualBox systemd-udevd[1375]: Could not generate persistent MAC address for vetha808e50: No such file or directory
+Aug 30 10:40:07 akila-VirtualBox systemd-udevd[1377]: Could not generate persistent MAC address for vethf24a9bc: No such file or directory
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <info>  [1535605807.5870] manager: (vethf24a9bc): new Veth device (/org/freedesktop/NetworkManager/Devices/489)
+Aug 30 10:40:07 akila-VirtualBox kernel: [63433.109106] docker0: port 1(vethf24a9bc) entered blocking state
+Aug 30 10:40:07 akila-VirtualBox kernel: [63433.109108] docker0: port 1(vethf24a9bc) entered disabled state
+Aug 30 10:40:07 akila-VirtualBox kernel: [63433.109231] device vethf24a9bc entered promiscuous mode
+Aug 30 10:40:07 akila-VirtualBox kernel: [63433.109353] IPv6: ADDRCONF(NETDEV_UP): vethf24a9bc: link is not ready
+Aug 30 10:40:07 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:40:07.620562706+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 10:40:07 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:40:07.620788804+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <info>  [1535605807.6452] devices added (path: /sys/devices/virtual/net/vetha808e50, iface: vetha808e50)
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <info>  [1535605807.6453] device added (path: /sys/devices/virtual/net/vetha808e50, iface: vetha808e50): no ifupdown configuration found.
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <info>  [1535605807.6603] devices added (path: /sys/devices/virtual/net/vethf24a9bc, iface: vethf24a9bc)
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <info>  [1535605807.6603] device added (path: /sys/devices/virtual/net/vethf24a9bc, iface: vethf24a9bc): no ifupdown configuration found.
+Aug 30 10:40:07 akila-VirtualBox dockerd[1445]: time="2018-08-30T10:40:07+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/630fd04b98d294ccaae735662d3079036aad332f269134b9e949c91fd275aad5/shim.sock" debug=false pid=1421
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <info>  [1535605807.9366] devices removed (path: /sys/devices/virtual/net/vetha808e50, iface: vetha808e50)
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <info>  [1535605807.9367] device (vetha808e50): driver 'veth' does not support carrier detection.
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <info>  [1535605807.9518] device (vethf24a9bc): link connected
+Aug 30 10:40:07 akila-VirtualBox kernel: [63433.460393] eth0: renamed from vetha808e50
+Aug 30 10:40:07 akila-VirtualBox kernel: [63433.460739] IPv6: ADDRCONF(NETDEV_CHANGE): vethf24a9bc: link becomes ready
+Aug 30 10:40:07 akila-VirtualBox kernel: [63433.460788] docker0: port 1(vethf24a9bc) entered blocking state
+Aug 30 10:40:07 akila-VirtualBox kernel: [63433.460789] docker0: port 1(vethf24a9bc) entered forwarding state
+Aug 30 10:40:07 akila-VirtualBox NetworkManager[787]: <info>  [1535605807.9525] device (docker0): link connected
+Aug 30 10:40:09 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface vethf24a9bc.IPv6 with address fe80::5c:94ff:fea0:a2b7.
+Aug 30 10:40:09 akila-VirtualBox avahi-daemon[772]: New relevant interface vethf24a9bc.IPv6 for mDNS.
+Aug 30 10:40:09 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::5c:94ff:fea0:a2b7 on vethf24a9bc.*.
+Aug 30 10:42:24 akila-VirtualBox gnome-session[2539]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Aug 30 10:42:49 akila-VirtualBox NetworkManager[787]: <info>  [1535605969.5535] device (enp0s3): link disconnected (deferring action for 4 seconds)
+Aug 30 10:42:49 akila-VirtualBox kernel: [63595.060974] e1000: enp0s3 NIC Link is Down
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.5857] device (enp0s3): link connected
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.5859] device (enp0s3): DHCPv4 lease renewal requested
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.5863] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 31353
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.5863] dhcp4 (enp0s3): state changed bound -> done
+Aug 30 10:42:53 akila-VirtualBox kernel: [63599.093043] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.5905] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.6007] dhcp4 (enp0s3): dhclient started with pid 1850
+Aug 30 10:42:53 akila-VirtualBox dhclient[1850]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x312b765b)
+Aug 30 10:42:53 akila-VirtualBox dhclient[1850]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7380]   address 10.0.2.15
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7384]   plen 24 (255.255.255.0)
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7386]   gateway 10.0.2.2
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7404]   server identifier 10.0.2.2
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7407]   lease time 86400
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7410]   nameserver '10.201.50.100'
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7411]   nameserver '10.200.51.100'
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7413]   nameserver '10.200.50.100'
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7414]   nameserver '10.201.50.200'
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7416]   domain name 'wipro.com'
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7444] dhcp4 (enp0s3): state changed unknown -> bound
+Aug 30 10:42:53 akila-VirtualBox dnsmasq[1214]: setting upstream servers from DBus
+Aug 30 10:42:53 akila-VirtualBox dnsmasq[1214]: using nameserver 10.201.50.100#53(via enp0s3)
+Aug 30 10:42:53 akila-VirtualBox dnsmasq[1214]: using nameserver 10.200.51.100#53(via enp0s3)
+Aug 30 10:42:53 akila-VirtualBox dnsmasq[1214]: using nameserver 10.200.50.100#53(via enp0s3)
+Aug 30 10:42:53 akila-VirtualBox dnsmasq[1214]: using nameserver 10.201.50.200#53(via enp0s3)
+Aug 30 10:42:53 akila-VirtualBox NetworkManager[787]: <info>  [1535605973.7574] dns-mgr: Writing DNS information to /sbin/resolvconf
+Aug 30 10:42:53 akila-VirtualBox dbus[698]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 30 10:42:53 akila-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug 30 10:42:53 akila-VirtualBox dbus[698]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 30 10:42:53 akila-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Aug 30 10:42:54 akila-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Aug 30 10:42:54 akila-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Aug 30 10:42:54 akila-VirtualBox dhclient[1850]: bound to 10.0.2.15 -- renewal in 43143 seconds.
+Aug 30 10:44:52 akila-VirtualBox NetworkManager[787]: <info>  [1535606092.5288] device (enp0s3): link disconnected (deferring action for 4 seconds)
+Aug 30 10:44:52 akila-VirtualBox kernel: [63718.034810] e1000: enp0s3 NIC Link is Down
+Aug 30 10:44:57 akila-VirtualBox NetworkManager[787]: <info>  [1535606097.1976] device (enp0s3): link disconnected (calling deferred action)
+Aug 30 10:44:57 akila-VirtualBox NetworkManager[787]: <info>  [1535606097.1982] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Aug 30 10:44:57 akila-VirtualBox NetworkManager[787]: <info>  [1535606097.1987] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 1850
+Aug 30 10:44:57 akila-VirtualBox NetworkManager[787]: <info>  [1535606097.1987] dhcp4 (enp0s3): state changed bound -> done
+Aug 30 10:44:57 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Aug 30 10:44:57 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Aug 30 10:44:57 akila-VirtualBox avahi-daemon[772]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Aug 30 10:44:57 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::a316:7b54:10f6:ed9e on enp0s3.
+Aug 30 10:44:57 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::a316:7b54:10f6:ed9e.
+Aug 30 10:44:57 akila-VirtualBox avahi-daemon[772]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Aug 30 10:44:57 akila-VirtualBox dnsmasq[1214]: setting upstream servers from DBus
+Aug 30 10:44:57 akila-VirtualBox NetworkManager[787]: <info>  [1535606097.2376] dns-mgr: Writing DNS information to /sbin/resolvconf
+Aug 30 10:44:57 akila-VirtualBox NetworkManager[787]: <info>  [1535606097.3434] manager: NetworkManager state is now CONNECTED_LOCAL
+Aug 30 10:44:57 akila-VirtualBox dbus[698]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 30 10:44:57 akila-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug 30 10:44:57 akila-VirtualBox dbus[698]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 30 10:44:57 akila-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Aug 30 10:44:57 akila-VirtualBox nm-dispatcher: req:1 'down' [enp0s3]: new request (1 scripts)
+Aug 30 10:44:57 akila-VirtualBox nm-dispatcher: req:1 'down' [enp0s3]: start running ordered scripts...
+Aug 30 10:44:58 akila-VirtualBox kernel: [63724.083224] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.5777] device (enp0s3): link connected
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.5781] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.5890] policy: auto-activating connection 'Wired connection 1'
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.5958] device (enp0s3): Activation: starting connection 'Wired connection 1' (ca4cda9e-b624-375b-b710-3a69778ee283)
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.5975] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6013] manager: NetworkManager state is now CONNECTING
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6093] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6164] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6248] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6333] dhcp4 (enp0s3): dhclient started with pid 2010
+Aug 30 10:44:58 akila-VirtualBox gnome-session[2539]: (deja-dup-monitor:3254): GLib-CRITICAL **: Source ID 4195 was not found when attempting to remove it
+Aug 30 10:44:58 akila-VirtualBox dhclient[2010]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x42d76dda)
+Aug 30 10:44:58 akila-VirtualBox dhclient[2010]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6876]   address 10.0.2.15
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6880]   plen 24 (255.255.255.0)
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6882]   gateway 10.0.2.2
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6897]   server identifier 10.0.2.2
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6899]   lease time 86400
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6902]   nameserver '10.201.50.100'
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6904]   nameserver '10.200.51.100'
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6906]   domain name 'wipro.com'
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.6908] dhcp4 (enp0s3): state changed unknown -> bound
+Aug 30 10:44:58 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Aug 30 10:44:58 akila-VirtualBox avahi-daemon[772]: New relevant interface enp0s3.IPv4 for mDNS.
+Aug 30 10:44:58 akila-VirtualBox avahi-daemon[772]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.7036] device (enp0s3): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Aug 30 10:44:58 akila-VirtualBox dhclient[2010]: bound to 10.0.2.15 -- renewal in 41556 seconds.
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.7157] device (enp0s3): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.7236] device (enp0s3): state change: secondaries -> activated (reason 'none') [90 100 0]
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.7269] manager: NetworkManager state is now CONNECTED_LOCAL
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.7362] manager: NetworkManager state is now CONNECTED_GLOBAL
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.7380] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Aug 30 10:44:58 akila-VirtualBox dnsmasq[1214]: setting upstream servers from DBus
+Aug 30 10:44:58 akila-VirtualBox dnsmasq[1214]: using nameserver 10.201.50.100#53(via enp0s3)
+Aug 30 10:44:58 akila-VirtualBox dnsmasq[1214]: using nameserver 10.200.51.100#53(via enp0s3)
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.7447] dns-mgr: Writing DNS information to /sbin/resolvconf
+Aug 30 10:44:58 akila-VirtualBox NetworkManager[787]: <info>  [1535606098.9270] device (enp0s3): Activation: successful, device activated.
+Aug 30 10:44:58 akila-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: new request (1 scripts)
+Aug 30 10:44:58 akila-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: start running ordered scripts...
+Aug 30 10:44:59 akila-VirtualBox gnome-session[2539]: (deja-dup-monitor:3254): GLib-CRITICAL **: Source ID 4195 was not found when attempting to remove it
+Aug 30 10:44:59 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::a316:7b54:10f6:ed9e.
+Aug 30 10:44:59 akila-VirtualBox avahi-daemon[772]: New relevant interface enp0s3.IPv6 for mDNS.
+Aug 30 10:44:59 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::a316:7b54:10f6:ed9e on enp0s3.*.
+Aug 30 10:45:02 akila-VirtualBox whoopsie[1444]: [10:45:02] offline
+Aug 30 10:45:02 akila-VirtualBox whoopsie[1444]: [10:45:02] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/12
+Aug 30 10:45:02 akila-VirtualBox whoopsie[1444]: [10:45:02] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/12
+Aug 30 10:45:02 akila-VirtualBox whoopsie[1444]: [10:45:02] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/12
+Aug 30 10:45:02 akila-VirtualBox whoopsie[1444]: [10:45:02] online
+Aug 30 11:05:40 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 30 11:05:50 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 30 11:06:01 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 30 11:06:11 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 30 11:16:43 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:16:43+05:30" level=info msg="shim reaped" id=630fd04b98d294ccaae735662d3079036aad332f269134b9e949c91fd275aad5
+Aug 30 11:16:43 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:16:43.028112550+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 11:16:43 akila-VirtualBox NetworkManager[787]: <info>  [1535608003.1987] device (vethf24a9bc): link disconnected
+Aug 30 11:16:43 akila-VirtualBox NetworkManager[787]: <info>  [1535608003.1991] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 11:16:43 akila-VirtualBox kernel: [65628.678728] docker0: port 1(vethf24a9bc) entered disabled state
+Aug 30 11:16:43 akila-VirtualBox kernel: [65628.686422] vetha808e50: renamed from eth0
+Aug 30 11:16:43 akila-VirtualBox NetworkManager[787]: <warn>  [1535608003.2208] device (vetha808e50): failed to find device 331 'vetha808e50' with udev
+Aug 30 11:16:43 akila-VirtualBox NetworkManager[787]: <info>  [1535608003.2237] manager: (vetha808e50): new Veth device (/org/freedesktop/NetworkManager/Devices/490)
+Aug 30 11:16:43 akila-VirtualBox NetworkManager[787]: <info>  [1535608003.2520] devices added (path: /sys/devices/virtual/net/vetha808e50, iface: vetha808e50)
+Aug 30 11:16:43 akila-VirtualBox NetworkManager[787]: <info>  [1535608003.2557] device added (path: /sys/devices/virtual/net/vetha808e50, iface: vetha808e50): no ifupdown configuration found.
+Aug 30 11:16:43 akila-VirtualBox avahi-daemon[772]: Interface vethf24a9bc.IPv6 no longer relevant for mDNS.
+Aug 30 11:16:43 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface vethf24a9bc.IPv6 with address fe80::5c:94ff:fea0:a2b7.
+Aug 30 11:16:43 akila-VirtualBox kernel: [65628.784525] docker0: port 1(vethf24a9bc) entered disabled state
+Aug 30 11:16:43 akila-VirtualBox kernel: [65628.793802] device vethf24a9bc left promiscuous mode
+Aug 30 11:16:43 akila-VirtualBox kernel: [65628.793809] docker0: port 1(vethf24a9bc) entered disabled state
+Aug 30 11:16:43 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::5c:94ff:fea0:a2b7 on vethf24a9bc.
+Aug 30 11:16:43 akila-VirtualBox NetworkManager[787]: <info>  [1535608003.3161] device (vetha808e50): driver 'veth' does not support carrier detection.
+Aug 30 11:16:43 akila-VirtualBox NetworkManager[787]: <info>  [1535608003.3224] device (vethf24a9bc): driver 'veth' does not support carrier detection.
+Aug 30 11:16:43 akila-VirtualBox NetworkManager[787]: <info>  [1535608003.4022] devices removed (path: /sys/devices/virtual/net/vetha808e50, iface: vetha808e50)
+Aug 30 11:16:43 akila-VirtualBox NetworkManager[787]: <info>  [1535608003.4112] devices removed (path: /sys/devices/virtual/net/vethf24a9bc, iface: vethf24a9bc)
+Aug 30 11:16:47 akila-VirtualBox NetworkManager[787]: <info>  [1535608007.1965] device (docker0): link disconnected (calling deferred action)
+Aug 30 11:17:01 akila-VirtualBox CRON[3083]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <warn>  [1535608109.3452] device (veth19ecfde): failed to find device 333 'veth19ecfde' with udev
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608109.3459] manager: (veth19ecfde): new Veth device (/org/freedesktop/NetworkManager/Devices/491)
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <warn>  [1535608109.3481] device (veth4ec9199): failed to find device 334 'veth4ec9199' with udev
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608109.3513] manager: (veth4ec9199): new Veth device (/org/freedesktop/NetworkManager/Devices/492)
+Aug 30 11:18:29 akila-VirtualBox systemd-udevd[3160]: Could not generate persistent MAC address for veth19ecfde: No such file or directory
+Aug 30 11:18:29 akila-VirtualBox systemd-udevd[3162]: Could not generate persistent MAC address for veth4ec9199: No such file or directory
+Aug 30 11:18:29 akila-VirtualBox kernel: [65734.852857] docker0: port 1(veth4ec9199) entered blocking state
+Aug 30 11:18:29 akila-VirtualBox kernel: [65734.852859] docker0: port 1(veth4ec9199) entered disabled state
+Aug 30 11:18:29 akila-VirtualBox kernel: [65734.852974] device veth4ec9199 entered promiscuous mode
+Aug 30 11:18:29 akila-VirtualBox kernel: [65734.853123] IPv6: ADDRCONF(NETDEV_UP): veth4ec9199: link is not ready
+Aug 30 11:18:29 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:18:29.396642209+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 11:18:29 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:18:29.396930417+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608109.4476] devices added (path: /sys/devices/virtual/net/veth4ec9199, iface: veth4ec9199)
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608109.4489] device added (path: /sys/devices/virtual/net/veth4ec9199, iface: veth4ec9199): no ifupdown configuration found.
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608109.4530] devices added (path: /sys/devices/virtual/net/veth19ecfde, iface: veth19ecfde)
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608109.4533] device added (path: /sys/devices/virtual/net/veth19ecfde, iface: veth19ecfde): no ifupdown configuration found.
+Aug 30 11:18:29 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:18:29+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/04a29bdd36d1c055fdc1653ef136875d4ba1ec8eb88b3d9a51f8d0aab78b98ee/shim.sock" debug=false pid=3182
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608109.5740] devices removed (path: /sys/devices/virtual/net/veth19ecfde, iface: veth19ecfde)
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608109.5740] device (veth19ecfde): driver 'veth' does not support carrier detection.
+Aug 30 11:18:29 akila-VirtualBox kernel: [65735.064042] eth0: renamed from veth19ecfde
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608109.5879] device (veth4ec9199): link connected
+Aug 30 11:18:29 akila-VirtualBox kernel: [65735.066738] IPv6: ADDRCONF(NETDEV_CHANGE): veth4ec9199: link becomes ready
+Aug 30 11:18:29 akila-VirtualBox kernel: [65735.066775] docker0: port 1(veth4ec9199) entered blocking state
+Aug 30 11:18:29 akila-VirtualBox kernel: [65735.066776] docker0: port 1(veth4ec9199) entered forwarding state
+Aug 30 11:18:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608109.5883] device (docker0): link connected
+Aug 30 11:18:31 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface veth4ec9199.IPv6 with address fe80::78cf:8eff:fedc:3396.
+Aug 30 11:18:31 akila-VirtualBox avahi-daemon[772]: New relevant interface veth4ec9199.IPv6 for mDNS.
+Aug 30 11:18:31 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::78cf:8eff:fedc:3396 on veth4ec9199.*.
+Aug 30 11:19:09 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:09+05:30" level=info msg="shim reaped" id=04a29bdd36d1c055fdc1653ef136875d4ba1ec8eb88b3d9a51f8d0aab78b98ee
+Aug 30 11:19:09 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:09.660532675+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 11:19:09 akila-VirtualBox kernel: [65775.147153] docker0: port 1(veth4ec9199) entered disabled state
+Aug 30 11:19:09 akila-VirtualBox NetworkManager[787]: <info>  [1535608149.6686] device (veth4ec9199): link disconnected
+Aug 30 11:19:09 akila-VirtualBox NetworkManager[787]: <info>  [1535608149.6687] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 11:19:09 akila-VirtualBox kernel: [65775.151059] veth19ecfde: renamed from eth0
+Aug 30 11:19:09 akila-VirtualBox NetworkManager[787]: <warn>  [1535608149.6780] device (veth19ecfde): failed to find device 333 'veth19ecfde' with udev
+Aug 30 11:19:09 akila-VirtualBox NetworkManager[787]: <info>  [1535608149.6800] manager: (veth19ecfde): new Veth device (/org/freedesktop/NetworkManager/Devices/493)
+Aug 30 11:19:09 akila-VirtualBox NetworkManager[787]: <info>  [1535608149.7107] devices added (path: /sys/devices/virtual/net/veth19ecfde, iface: veth19ecfde)
+Aug 30 11:19:09 akila-VirtualBox NetworkManager[787]: <info>  [1535608149.7118] device added (path: /sys/devices/virtual/net/veth19ecfde, iface: veth19ecfde): no ifupdown configuration found.
+Aug 30 11:19:09 akila-VirtualBox avahi-daemon[772]: Interface veth4ec9199.IPv6 no longer relevant for mDNS.
+Aug 30 11:19:09 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface veth4ec9199.IPv6 with address fe80::78cf:8eff:fedc:3396.
+Aug 30 11:19:09 akila-VirtualBox kernel: [65775.196901] docker0: port 1(veth4ec9199) entered disabled state
+Aug 30 11:19:09 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::78cf:8eff:fedc:3396 on veth4ec9199.
+Aug 30 11:19:09 akila-VirtualBox NetworkManager[787]: <info>  [1535608149.7242] device (veth19ecfde): driver 'veth' does not support carrier detection.
+Aug 30 11:19:09 akila-VirtualBox kernel: [65775.199954] device veth4ec9199 left promiscuous mode
+Aug 30 11:19:09 akila-VirtualBox kernel: [65775.199957] docker0: port 1(veth4ec9199) entered disabled state
+Aug 30 11:19:09 akila-VirtualBox NetworkManager[787]: <info>  [1535608149.7278] device (veth4ec9199): driver 'veth' does not support carrier detection.
+Aug 30 11:19:09 akila-VirtualBox NetworkManager[787]: <info>  [1535608149.7739] devices removed (path: /sys/devices/virtual/net/veth4ec9199, iface: veth4ec9199)
+Aug 30 11:19:09 akila-VirtualBox NetworkManager[787]: <info>  [1535608149.7769] devices removed (path: /sys/devices/virtual/net/veth19ecfde, iface: veth19ecfde)
+Aug 30 11:19:14 akila-VirtualBox NetworkManager[787]: <info>  [1535608154.1968] device (docker0): link disconnected (calling deferred action)
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <warn>  [1535608175.5758] device (vethe4bb04b): failed to find device 335 'vethe4bb04b' with udev
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608175.5803] manager: (vethe4bb04b): new Veth device (/org/freedesktop/NetworkManager/Devices/494)
+Aug 30 11:19:35 akila-VirtualBox systemd-udevd[3387]: Could not generate persistent MAC address for vethe4bb04b: No such file or directory
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <warn>  [1535608175.5887] device (veth1a7ac18): failed to find device 336 'veth1a7ac18' with udev
+Aug 30 11:19:35 akila-VirtualBox systemd-udevd[3389]: Could not generate persistent MAC address for veth1a7ac18: No such file or directory
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608175.5960] manager: (veth1a7ac18): new Veth device (/org/freedesktop/NetworkManager/Devices/495)
+Aug 30 11:19:35 akila-VirtualBox kernel: [65801.077269] docker0: port 1(veth1a7ac18) entered blocking state
+Aug 30 11:19:35 akila-VirtualBox kernel: [65801.077270] docker0: port 1(veth1a7ac18) entered disabled state
+Aug 30 11:19:35 akila-VirtualBox kernel: [65801.079017] device veth1a7ac18 entered promiscuous mode
+Aug 30 11:19:35 akila-VirtualBox kernel: [65801.079114] IPv6: ADDRCONF(NETDEV_UP): veth1a7ac18: link is not ready
+Aug 30 11:19:35 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:35.643459076+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 11:19:35 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:35.648513371+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608175.6869] devices added (path: /sys/devices/virtual/net/vethe4bb04b, iface: vethe4bb04b)
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608175.6872] device added (path: /sys/devices/virtual/net/vethe4bb04b, iface: vethe4bb04b): no ifupdown configuration found.
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608175.7010] devices added (path: /sys/devices/virtual/net/veth1a7ac18, iface: veth1a7ac18)
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608175.7012] device added (path: /sys/devices/virtual/net/veth1a7ac18, iface: veth1a7ac18): no ifupdown configuration found.
+Aug 30 11:19:35 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:35+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/107245c00b34902d992858aec0eb8dc04434dff124244340c260f1012583e4f8/shim.sock" debug=false pid=3408
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608175.8136] devices removed (path: /sys/devices/virtual/net/vethe4bb04b, iface: vethe4bb04b)
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608175.8136] device (vethe4bb04b): driver 'veth' does not support carrier detection.
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608175.8275] device (veth1a7ac18): link connected
+Aug 30 11:19:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608175.8278] device (docker0): link connected
+Aug 30 11:19:35 akila-VirtualBox kernel: [65801.304179] eth0: renamed from vethe4bb04b
+Aug 30 11:19:35 akila-VirtualBox kernel: [65801.305635] IPv6: ADDRCONF(NETDEV_CHANGE): veth1a7ac18: link becomes ready
+Aug 30 11:19:35 akila-VirtualBox kernel: [65801.305668] docker0: port 1(veth1a7ac18) entered blocking state
+Aug 30 11:19:35 akila-VirtualBox kernel: [65801.305670] docker0: port 1(veth1a7ac18) entered forwarding state
+Aug 30 11:19:37 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface veth1a7ac18.IPv6 with address fe80::d8ce:daff:fed2:ad2a.
+Aug 30 11:19:37 akila-VirtualBox avahi-daemon[772]: New relevant interface veth1a7ac18.IPv6 for mDNS.
+Aug 30 11:19:37 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::d8ce:daff:fed2:ad2a on veth1a7ac18.*.
+Aug 30 11:19:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:41+05:30" level=info msg="shim reaped" id=107245c00b34902d992858aec0eb8dc04434dff124244340c260f1012583e4f8
+Aug 30 11:19:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:41.171714523+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.1783] device (veth1a7ac18): link disconnected
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.1784] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 11:19:41 akila-VirtualBox kernel: [65806.656206] docker0: port 1(veth1a7ac18) entered disabled state
+Aug 30 11:19:41 akila-VirtualBox kernel: [65806.662662] vethe4bb04b: renamed from eth0
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <warn>  [1535608181.1918] device (vethe4bb04b): failed to find device 335 'vethe4bb04b' with udev
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.1967] manager: (vethe4bb04b): new Veth device (/org/freedesktop/NetworkManager/Devices/496)
+Aug 30 11:19:41 akila-VirtualBox avahi-daemon[772]: Interface veth1a7ac18.IPv6 no longer relevant for mDNS.
+Aug 30 11:19:41 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface veth1a7ac18.IPv6 with address fe80::d8ce:daff:fed2:ad2a.
+Aug 30 11:19:41 akila-VirtualBox kernel: [65806.692792] docker0: port 1(veth1a7ac18) entered disabled state
+Aug 30 11:19:41 akila-VirtualBox kernel: [65806.699041] device veth1a7ac18 left promiscuous mode
+Aug 30 11:19:41 akila-VirtualBox kernel: [65806.699045] docker0: port 1(veth1a7ac18) entered disabled state
+Aug 30 11:19:41 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::d8ce:daff:fed2:ad2a on veth1a7ac18.
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.2451] device (vethe4bb04b): driver 'veth' does not support carrier detection.
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.2617] device (veth1a7ac18): driver 'veth' does not support carrier detection.
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.2652] devices added (path: /sys/devices/virtual/net/vethe4bb04b, iface: vethe4bb04b)
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.2684] device added (path: /sys/devices/virtual/net/vethe4bb04b, iface: vethe4bb04b): no ifupdown configuration found.
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.3041] devices removed (path: /sys/devices/virtual/net/vethe4bb04b, iface: vethe4bb04b)
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.3066] devices removed (path: /sys/devices/virtual/net/veth1a7ac18, iface: veth1a7ac18)
+Aug 30 11:19:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:41.586159938+05:30" level=info msg="Layer sha256:f4459692b8df31b5c96688786e52902badc534036eec44806284ed79f8d46558 cleaned up"
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <warn>  [1535608181.6613] device (vethab8013d): failed to find device 337 'vethab8013d' with udev
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.6732] manager: (vethab8013d): new Veth device (/org/freedesktop/NetworkManager/Devices/497)
+Aug 30 11:19:41 akila-VirtualBox systemd-udevd[3589]: Could not generate persistent MAC address for vethab8013d: No such file or directory
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <warn>  [1535608181.6811] device (veth5fd19e7): failed to find device 338 'veth5fd19e7' with udev
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.6891] manager: (veth5fd19e7): new Veth device (/org/freedesktop/NetworkManager/Devices/498)
+Aug 30 11:19:41 akila-VirtualBox kernel: [65807.169197] docker0: port 1(veth5fd19e7) entered blocking state
+Aug 30 11:19:41 akila-VirtualBox kernel: [65807.169198] docker0: port 1(veth5fd19e7) entered disabled state
+Aug 30 11:19:41 akila-VirtualBox kernel: [65807.169330] device veth5fd19e7 entered promiscuous mode
+Aug 30 11:19:41 akila-VirtualBox kernel: [65807.169447] IPv6: ADDRCONF(NETDEV_UP): veth5fd19e7: link is not ready
+Aug 30 11:19:41 akila-VirtualBox kernel: [65807.169450] docker0: port 1(veth5fd19e7) entered blocking state
+Aug 30 11:19:41 akila-VirtualBox kernel: [65807.169451] docker0: port 1(veth5fd19e7) entered forwarding state
+Aug 30 11:19:41 akila-VirtualBox systemd-udevd[3592]: Could not generate persistent MAC address for veth5fd19e7: No such file or directory
+Aug 30 11:19:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:41.720526696+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 11:19:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:41.720552939+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.7754] devices added (path: /sys/devices/virtual/net/vethab8013d, iface: vethab8013d)
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.7770] device added (path: /sys/devices/virtual/net/vethab8013d, iface: vethab8013d): no ifupdown configuration found.
+Aug 30 11:19:41 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:41+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/9a641fe5c9647b896b258bc6ff87d5583c73dbe1882d7ea034e7126b4920b6ac/shim.sock" debug=false pid=3608
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.7995] devices added (path: /sys/devices/virtual/net/veth5fd19e7, iface: veth5fd19e7)
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.7995] device added (path: /sys/devices/virtual/net/veth5fd19e7, iface: veth5fd19e7): no ifupdown configuration found.
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.9328] device (vethab8013d): driver 'veth' does not support carrier detection.
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.9465] devices removed (path: /sys/devices/virtual/net/vethab8013d, iface: vethab8013d)
+Aug 30 11:19:41 akila-VirtualBox kernel: [65807.428228] eth0: renamed from vethab8013d
+Aug 30 11:19:41 akila-VirtualBox kernel: [65807.428873] IPv6: ADDRCONF(NETDEV_CHANGE): veth5fd19e7: link becomes ready
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.9564] device (veth5fd19e7): link connected
+Aug 30 11:19:41 akila-VirtualBox NetworkManager[787]: <info>  [1535608181.9590] device (docker0): link connected
+Aug 30 11:19:42 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:42+05:30" level=info msg="shim reaped" id=9a641fe5c9647b896b258bc6ff87d5583c73dbe1882d7ea034e7126b4920b6ac
+Aug 30 11:19:42 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:42.124425855+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 11:19:42 akila-VirtualBox NetworkManager[787]: <info>  [1535608182.1316] device (veth5fd19e7): link disconnected
+Aug 30 11:19:42 akila-VirtualBox NetworkManager[787]: <info>  [1535608182.1317] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 11:19:42 akila-VirtualBox kernel: [65807.609573] docker0: port 1(veth5fd19e7) entered disabled state
+Aug 30 11:19:42 akila-VirtualBox kernel: [65807.616635] vethab8013d: renamed from eth0
+Aug 30 11:19:42 akila-VirtualBox NetworkManager[787]: <warn>  [1535608182.1456] device (vethab8013d): failed to find device 337 'vethab8013d' with udev
+Aug 30 11:19:42 akila-VirtualBox NetworkManager[787]: <info>  [1535608182.1492] manager: (vethab8013d): new Veth device (/org/freedesktop/NetworkManager/Devices/499)
+Aug 30 11:19:42 akila-VirtualBox kernel: [65807.661992] docker0: port 1(veth5fd19e7) entered disabled state
+Aug 30 11:19:42 akila-VirtualBox kernel: [65807.665389] device veth5fd19e7 left promiscuous mode
+Aug 30 11:19:42 akila-VirtualBox kernel: [65807.665395] docker0: port 1(veth5fd19e7) entered disabled state
+Aug 30 11:19:42 akila-VirtualBox NetworkManager[787]: <info>  [1535608182.2046] devices added (path: /sys/devices/virtual/net/vethab8013d, iface: vethab8013d)
+Aug 30 11:19:42 akila-VirtualBox NetworkManager[787]: <info>  [1535608182.2050] device added (path: /sys/devices/virtual/net/vethab8013d, iface: vethab8013d): no ifupdown configuration found.
+Aug 30 11:19:42 akila-VirtualBox NetworkManager[787]: <info>  [1535608182.2435] device (vethab8013d): driver 'veth' does not support carrier detection.
+Aug 30 11:19:42 akila-VirtualBox NetworkManager[787]: <info>  [1535608182.2457] device (veth5fd19e7): driver 'veth' does not support carrier detection.
+Aug 30 11:19:42 akila-VirtualBox NetworkManager[787]: <info>  [1535608182.2652] devices removed (path: /sys/devices/virtual/net/veth5fd19e7, iface: veth5fd19e7)
+Aug 30 11:19:42 akila-VirtualBox NetworkManager[787]: <info>  [1535608182.2761] devices removed (path: /sys/devices/virtual/net/vethab8013d, iface: vethab8013d)
+Aug 30 11:19:42 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:19:42.586025055+05:30" level=info msg="Layer sha256:ecfac9cba4dc42d351fe79923ebe4717e8ae1d363ec4a3eb20b6a8144f0800e9 cleaned up"
+Aug 30 11:19:46 akila-VirtualBox NetworkManager[787]: <info>  [1535608186.1938] device (docker0): link disconnected (calling deferred action)
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <warn>  [1535608404.4191] device (vethee6d63e): failed to find device 339 'vethee6d63e' with udev
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <info>  [1535608404.4230] manager: (vethee6d63e): new Veth device (/org/freedesktop/NetworkManager/Devices/500)
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <warn>  [1535608404.4308] device (veth0834957): failed to find device 340 'veth0834957' with udev
+Aug 30 11:23:24 akila-VirtualBox systemd-udevd[3857]: Could not generate persistent MAC address for veth0834957: No such file or directory
+Aug 30 11:23:24 akila-VirtualBox systemd-udevd[3848]: Could not generate persistent MAC address for vethee6d63e: No such file or directory
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <info>  [1535608404.4505] manager: (veth0834957): new Veth device (/org/freedesktop/NetworkManager/Devices/501)
+Aug 30 11:23:24 akila-VirtualBox kernel: [66029.929308] docker0: port 1(veth0834957) entered blocking state
+Aug 30 11:23:24 akila-VirtualBox kernel: [66029.929310] docker0: port 1(veth0834957) entered disabled state
+Aug 30 11:23:24 akila-VirtualBox kernel: [66029.934004] device veth0834957 entered promiscuous mode
+Aug 30 11:23:24 akila-VirtualBox kernel: [66029.934218] IPv6: ADDRCONF(NETDEV_UP): veth0834957: link is not ready
+Aug 30 11:23:24 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:23:24.485626753+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 11:23:24 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:23:24.485964096+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <info>  [1535608404.5490] devices added (path: /sys/devices/virtual/net/veth0834957, iface: veth0834957)
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <info>  [1535608404.5491] device added (path: /sys/devices/virtual/net/veth0834957, iface: veth0834957): no ifupdown configuration found.
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <info>  [1535608404.5600] devices added (path: /sys/devices/virtual/net/vethee6d63e, iface: vethee6d63e)
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <info>  [1535608404.5600] device added (path: /sys/devices/virtual/net/vethee6d63e, iface: vethee6d63e): no ifupdown configuration found.
+Aug 30 11:23:24 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:23:24+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/fb0cc7b94292e09f8f34dd763af14f7c6c670bd8645469171d715aa10c417c49/shim.sock" debug=false pid=3901
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <info>  [1535608404.8180] devices removed (path: /sys/devices/virtual/net/vethee6d63e, iface: vethee6d63e)
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <info>  [1535608404.8181] device (vethee6d63e): driver 'veth' does not support carrier detection.
+Aug 30 11:23:24 akila-VirtualBox kernel: [66030.305870] eth0: renamed from vethee6d63e
+Aug 30 11:23:24 akila-VirtualBox kernel: [66030.308999] IPv6: ADDRCONF(NETDEV_CHANGE): veth0834957: link becomes ready
+Aug 30 11:23:24 akila-VirtualBox kernel: [66030.309102] docker0: port 1(veth0834957) entered blocking state
+Aug 30 11:23:24 akila-VirtualBox kernel: [66030.309104] docker0: port 1(veth0834957) entered forwarding state
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <info>  [1535608404.8345] device (veth0834957): link connected
+Aug 30 11:23:24 akila-VirtualBox NetworkManager[787]: <info>  [1535608404.8406] device (docker0): link connected
+Aug 30 11:23:26 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface veth0834957.IPv6 with address fe80::6418:a2ff:feae:cbc9.
+Aug 30 11:23:26 akila-VirtualBox avahi-daemon[772]: New relevant interface veth0834957.IPv6 for mDNS.
+Aug 30 11:23:26 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::6418:a2ff:feae:cbc9 on veth0834957.*.
+Aug 30 11:29:49 akila-VirtualBox gnome-session[2539]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Aug 30 11:30:22 akila-VirtualBox NetworkManager[787]: <info>  [1535608822.2254] device (enp0s3): link disconnected (deferring action for 4 seconds)
+Aug 30 11:30:22 akila-VirtualBox kernel: [66447.695413] e1000: enp0s3 NIC Link is Down
+Aug 30 11:30:26 akila-VirtualBox NetworkManager[787]: <info>  [1535608826.1976] device (enp0s3): link disconnected (calling deferred action)
+Aug 30 11:30:26 akila-VirtualBox NetworkManager[787]: <info>  [1535608826.1978] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Aug 30 11:30:26 akila-VirtualBox NetworkManager[787]: <info>  [1535608826.1994] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 2010
+Aug 30 11:30:26 akila-VirtualBox NetworkManager[787]: <info>  [1535608826.1995] dhcp4 (enp0s3): state changed bound -> done
+Aug 30 11:30:26 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Aug 30 11:30:26 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Aug 30 11:30:26 akila-VirtualBox avahi-daemon[772]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Aug 30 11:30:26 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::a316:7b54:10f6:ed9e on enp0s3.
+Aug 30 11:30:26 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::a316:7b54:10f6:ed9e.
+Aug 30 11:30:26 akila-VirtualBox avahi-daemon[772]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Aug 30 11:30:26 akila-VirtualBox dnsmasq[1214]: setting upstream servers from DBus
+Aug 30 11:30:26 akila-VirtualBox NetworkManager[787]: <info>  [1535608826.2392] dns-mgr: Writing DNS information to /sbin/resolvconf
+Aug 30 11:30:26 akila-VirtualBox NetworkManager[787]: <info>  [1535608826.3058] manager: NetworkManager state is now CONNECTED_LOCAL
+Aug 30 11:30:26 akila-VirtualBox dbus[698]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Aug 30 11:30:26 akila-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug 30 11:30:26 akila-VirtualBox dbus[698]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 30 11:30:26 akila-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Aug 30 11:30:26 akila-VirtualBox nm-dispatcher: req:1 'down' [enp0s3]: new request (1 scripts)
+Aug 30 11:30:26 akila-VirtualBox nm-dispatcher: req:1 'down' [enp0s3]: start running ordered scripts...
+Aug 30 11:30:29 akila-VirtualBox kernel: [66454.483104] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.0162] device (enp0s3): link connected
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.0213] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.0511] policy: auto-activating connection 'Wired connection 1'
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.0530] device (enp0s3): Activation: starting connection 'Wired connection 1' (ca4cda9e-b624-375b-b710-3a69778ee283)
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.0536] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.0542] manager: NetworkManager state is now CONNECTING
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.0554] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.0567] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.0599] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.0683] dhcp4 (enp0s3): dhclient started with pid 4449
+Aug 30 11:30:29 akila-VirtualBox dhclient[4449]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x2cb26ec3)
+Aug 30 11:30:29 akila-VirtualBox dhclient[4449]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1253]   address 10.0.2.15
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1255]   plen 24 (255.255.255.0)
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1257]   gateway 10.0.2.2
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1258]   server identifier 10.0.2.2
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1289]   lease time 86400
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1292]   nameserver '10.200.50.100'
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1293]   nameserver '10.201.50.200'
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1294]   domain name 'wipro.com'
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1296] dhcp4 (enp0s3): state changed unknown -> bound
+Aug 30 11:30:29 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Aug 30 11:30:29 akila-VirtualBox avahi-daemon[772]: New relevant interface enp0s3.IPv4 for mDNS.
+Aug 30 11:30:29 akila-VirtualBox avahi-daemon[772]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Aug 30 11:30:29 akila-VirtualBox gnome-session[2539]: (deja-dup-monitor:3254): GLib-CRITICAL **: Source ID 4799 was not found when attempting to remove it
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1338] device (enp0s3): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1386] device (enp0s3): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1450] device (enp0s3): state change: secondaries -> activated (reason 'none') [90 100 0]
+Aug 30 11:30:29 akila-VirtualBox NetworkManager[787]: <info>  [1535608829.1459] manager: NetworkManager state is now CONNECTED_LOCAL
+Aug 30 11:30:30 akila-VirtualBox dhclient[4449]: bound to 10.0.2.15 -- renewal in 35761 seconds.
+Aug 30 11:30:30 akila-VirtualBox NetworkManager[787]: <info>  [1535608830.5055] manager: NetworkManager state is now CONNECTED_GLOBAL
+Aug 30 11:30:30 akila-VirtualBox NetworkManager[787]: <info>  [1535608830.5057] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Aug 30 11:30:30 akila-VirtualBox NetworkManager[787]: <info>  [1535608830.5075] dns-mgr: Writing DNS information to /sbin/resolvconf
+Aug 30 11:30:30 akila-VirtualBox dnsmasq[1214]: setting upstream servers from DBus
+Aug 30 11:30:30 akila-VirtualBox dnsmasq[1214]: using nameserver 10.200.50.100#53(via enp0s3)
+Aug 30 11:30:30 akila-VirtualBox dnsmasq[1214]: using nameserver 10.201.50.200#53(via enp0s3)
+Aug 30 11:30:31 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::a316:7b54:10f6:ed9e.
+Aug 30 11:30:31 akila-VirtualBox avahi-daemon[772]: New relevant interface enp0s3.IPv6 for mDNS.
+Aug 30 11:30:31 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::a316:7b54:10f6:ed9e on enp0s3.*.
+Aug 30 11:30:35 akila-VirtualBox NetworkManager[787]: <info>  [1535608835.5587] device (enp0s3): Activation: successful, device activated.
+Aug 30 11:30:35 akila-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: new request (1 scripts)
+Aug 30 11:30:35 akila-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: start running ordered scripts...
+Aug 30 11:30:35 akila-VirtualBox gnome-session[2539]: (deja-dup-monitor:3254): GLib-CRITICAL **: Source ID 4799 was not found when attempting to remove it
+Aug 30 11:30:36 akila-VirtualBox whoopsie[1444]: [11:30:36] Cannot reach: https://daisy.ubuntu.com
+Aug 30 11:30:36 akila-VirtualBox whoopsie[1444]: [11:30:36] offline
+Aug 30 11:30:36 akila-VirtualBox whoopsie[1444]: [11:30:36] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/13
+Aug 30 11:30:36 akila-VirtualBox whoopsie[1444]: [11:30:36] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/13
+Aug 30 11:30:36 akila-VirtualBox whoopsie[1444]: [11:30:36] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/13
+Aug 30 11:30:36 akila-VirtualBox whoopsie[1444]: [11:30:36] online
+Aug 30 11:37:39 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:37:39+05:30" level=info msg="shim reaped" id=fb0cc7b94292e09f8f34dd763af14f7c6c670bd8645469171d715aa10c417c49
+Aug 30 11:37:39 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:37:39.951827810+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 11:37:40 akila-VirtualBox NetworkManager[787]: <info>  [1535609260.1595] device (veth0834957): link disconnected
+Aug 30 11:37:40 akila-VirtualBox NetworkManager[787]: <info>  [1535609260.1600] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 11:37:40 akila-VirtualBox kernel: [66885.622772] docker0: port 1(veth0834957) entered disabled state
+Aug 30 11:37:40 akila-VirtualBox kernel: [66885.630281] vethee6d63e: renamed from eth0
+Aug 30 11:37:40 akila-VirtualBox NetworkManager[787]: <warn>  [1535609260.1776] device (vethee6d63e): failed to find device 339 'vethee6d63e' with udev
+Aug 30 11:37:40 akila-VirtualBox NetworkManager[787]: <info>  [1535609260.1877] manager: (vethee6d63e): new Veth device (/org/freedesktop/NetworkManager/Devices/502)
+Aug 30 11:37:40 akila-VirtualBox NetworkManager[787]: <info>  [1535609260.2186] devices added (path: /sys/devices/virtual/net/vethee6d63e, iface: vethee6d63e)
+Aug 30 11:37:40 akila-VirtualBox NetworkManager[787]: <info>  [1535609260.2213] device added (path: /sys/devices/virtual/net/vethee6d63e, iface: vethee6d63e): no ifupdown configuration found.
+Aug 30 11:37:40 akila-VirtualBox avahi-daemon[772]: Interface veth0834957.IPv6 no longer relevant for mDNS.
+Aug 30 11:37:40 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface veth0834957.IPv6 with address fe80::6418:a2ff:feae:cbc9.
+Aug 30 11:37:40 akila-VirtualBox kernel: [66885.769867] docker0: port 1(veth0834957) entered disabled state
+Aug 30 11:37:40 akila-VirtualBox kernel: [66885.783136] device veth0834957 left promiscuous mode
+Aug 30 11:37:40 akila-VirtualBox kernel: [66885.783144] docker0: port 1(veth0834957) entered disabled state
+Aug 30 11:37:40 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::6418:a2ff:feae:cbc9 on veth0834957.
+Aug 30 11:37:40 akila-VirtualBox NetworkManager[787]: <info>  [1535609260.3243] device (vethee6d63e): driver 'veth' does not support carrier detection.
+Aug 30 11:37:40 akila-VirtualBox NetworkManager[787]: <info>  [1535609260.3314] device (veth0834957): driver 'veth' does not support carrier detection.
+Aug 30 11:37:40 akila-VirtualBox NetworkManager[787]: <info>  [1535609260.3931] devices removed (path: /sys/devices/virtual/net/vethee6d63e, iface: vethee6d63e)
+Aug 30 11:37:40 akila-VirtualBox NetworkManager[787]: <info>  [1535609260.3975] devices removed (path: /sys/devices/virtual/net/veth0834957, iface: veth0834957)
+Aug 30 11:37:44 akila-VirtualBox NetworkManager[787]: <info>  [1535609264.1959] device (docker0): link disconnected (calling deferred action)
+Aug 30 11:40:29 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Aug 30 11:40:40 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Aug 30 11:40:50 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Aug 30 11:41:00 akila-VirtualBox systemd-timesyncd[659]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Aug 30 11:44:51 akila-VirtualBox NetworkManager[787]: <warn>  [1535609691.8000] device (veth05c6d26): failed to find device 341 'veth05c6d26' with udev
+Aug 30 11:44:51 akila-VirtualBox NetworkManager[787]: <info>  [1535609691.8047] manager: (veth05c6d26): new Veth device (/org/freedesktop/NetworkManager/Devices/503)
+Aug 30 11:44:51 akila-VirtualBox NetworkManager[787]: <warn>  [1535609691.8080] device (veth137c957): failed to find device 342 'veth137c957' with udev
+Aug 30 11:44:51 akila-VirtualBox systemd-udevd[5104]: Could not generate persistent MAC address for veth05c6d26: No such file or directory
+Aug 30 11:44:51 akila-VirtualBox systemd-udevd[5106]: Could not generate persistent MAC address for veth137c957: No such file or directory
+Aug 30 11:44:51 akila-VirtualBox NetworkManager[787]: <info>  [1535609691.8211] manager: (veth137c957): new Veth device (/org/freedesktop/NetworkManager/Devices/504)
+Aug 30 11:44:51 akila-VirtualBox kernel: [67317.281826] docker0: port 1(veth137c957) entered blocking state
+Aug 30 11:44:51 akila-VirtualBox kernel: [67317.281828] docker0: port 1(veth137c957) entered disabled state
+Aug 30 11:44:51 akila-VirtualBox kernel: [67317.283473] device veth137c957 entered promiscuous mode
+Aug 30 11:44:51 akila-VirtualBox kernel: [67317.283698] IPv6: ADDRCONF(NETDEV_UP): veth137c957: link is not ready
+Aug 30 11:44:51 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:44:51.853009853+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 11:44:51 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:44:51.853346094+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 11:44:51 akila-VirtualBox NetworkManager[787]: <info>  [1535609691.9031] devices added (path: /sys/devices/virtual/net/veth05c6d26, iface: veth05c6d26)
+Aug 30 11:44:51 akila-VirtualBox NetworkManager[787]: <info>  [1535609691.9031] device added (path: /sys/devices/virtual/net/veth05c6d26, iface: veth05c6d26): no ifupdown configuration found.
+Aug 30 11:44:51 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:44:51+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/45ce8a3cd8da1c27daaa0716868d594ed7f84adad64f0ea47e4e4fb53b2987ea/shim.sock" debug=false pid=5126
+Aug 30 11:44:51 akila-VirtualBox NetworkManager[787]: <info>  [1535609691.9268] devices added (path: /sys/devices/virtual/net/veth137c957, iface: veth137c957)
+Aug 30 11:44:51 akila-VirtualBox NetworkManager[787]: <info>  [1535609691.9268] device added (path: /sys/devices/virtual/net/veth137c957, iface: veth137c957): no ifupdown configuration found.
+Aug 30 11:44:52 akila-VirtualBox NetworkManager[787]: <info>  [1535609692.0995] devices removed (path: /sys/devices/virtual/net/veth05c6d26, iface: veth05c6d26)
+Aug 30 11:44:52 akila-VirtualBox NetworkManager[787]: <info>  [1535609692.0996] device (veth05c6d26): driver 'veth' does not support carrier detection.
+Aug 30 11:44:52 akila-VirtualBox NetworkManager[787]: <info>  [1535609692.1120] device (veth137c957): link connected
+Aug 30 11:44:52 akila-VirtualBox kernel: [67317.567951] eth0: renamed from veth05c6d26
+Aug 30 11:44:52 akila-VirtualBox kernel: [67317.569761] IPv6: ADDRCONF(NETDEV_CHANGE): veth137c957: link becomes ready
+Aug 30 11:44:52 akila-VirtualBox kernel: [67317.569800] docker0: port 1(veth137c957) entered blocking state
+Aug 30 11:44:52 akila-VirtualBox kernel: [67317.569801] docker0: port 1(veth137c957) entered forwarding state
+Aug 30 11:44:52 akila-VirtualBox NetworkManager[787]: <info>  [1535609692.1126] device (docker0): link connected
+Aug 30 11:44:54 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface veth137c957.IPv6 with address fe80::fcea:4eff:fe24:f30d.
+Aug 30 11:44:54 akila-VirtualBox avahi-daemon[772]: New relevant interface veth137c957.IPv6 for mDNS.
+Aug 30 11:44:54 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::fcea:4eff:fe24:f30d on veth137c957.*.
+Aug 30 11:45:38 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:45:38+05:30" level=info msg="shim reaped" id=45ce8a3cd8da1c27daaa0716868d594ed7f84adad64f0ea47e4e4fb53b2987ea
+Aug 30 11:45:38 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:45:38.903216197+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 11:45:38 akila-VirtualBox NetworkManager[787]: <info>  [1535609738.9456] device (veth137c957): link disconnected
+Aug 30 11:45:38 akila-VirtualBox NetworkManager[787]: <info>  [1535609738.9456] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 11:45:38 akila-VirtualBox kernel: [67364.403218] docker0: port 1(veth137c957) entered disabled state
+Aug 30 11:45:38 akila-VirtualBox kernel: [67364.407909] veth05c6d26: renamed from eth0
+Aug 30 11:45:38 akila-VirtualBox NetworkManager[787]: <warn>  [1535609738.9578] device (veth05c6d26): failed to find device 341 'veth05c6d26' with udev
+Aug 30 11:45:38 akila-VirtualBox NetworkManager[787]: <info>  [1535609738.9598] manager: (veth05c6d26): new Veth device (/org/freedesktop/NetworkManager/Devices/505)
+Aug 30 11:45:38 akila-VirtualBox avahi-daemon[772]: Interface veth137c957.IPv6 no longer relevant for mDNS.
+Aug 30 11:45:38 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface veth137c957.IPv6 with address fe80::fcea:4eff:fe24:f30d.
+Aug 30 11:45:38 akila-VirtualBox kernel: [67364.443792] docker0: port 1(veth137c957) entered disabled state
+Aug 30 11:45:38 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::fcea:4eff:fe24:f30d on veth137c957.
+Aug 30 11:45:38 akila-VirtualBox kernel: [67364.448969] device veth137c957 left promiscuous mode
+Aug 30 11:45:38 akila-VirtualBox kernel: [67364.448973] docker0: port 1(veth137c957) entered disabled state
+Aug 30 11:45:38 akila-VirtualBox NetworkManager[787]: <info>  [1535609738.9985] device (veth05c6d26): driver 'veth' does not support carrier detection.
+Aug 30 11:45:39 akila-VirtualBox NetworkManager[787]: <info>  [1535609739.0079] device (veth137c957): driver 'veth' does not support carrier detection.
+Aug 30 11:45:39 akila-VirtualBox NetworkManager[787]: <info>  [1535609739.0137] devices added (path: /sys/devices/virtual/net/veth05c6d26, iface: veth05c6d26)
+Aug 30 11:45:39 akila-VirtualBox NetworkManager[787]: <info>  [1535609739.0304] device added (path: /sys/devices/virtual/net/veth05c6d26, iface: veth05c6d26): no ifupdown configuration found.
+Aug 30 11:45:39 akila-VirtualBox NetworkManager[787]: <info>  [1535609739.0598] devices removed (path: /sys/devices/virtual/net/veth05c6d26, iface: veth05c6d26)
+Aug 30 11:45:39 akila-VirtualBox NetworkManager[787]: <info>  [1535609739.0667] devices removed (path: /sys/devices/virtual/net/veth137c957, iface: veth137c957)
+Aug 30 11:45:43 akila-VirtualBox NetworkManager[787]: <info>  [1535609743.1964] device (docker0): link disconnected (calling deferred action)
+Aug 30 11:46:05 akila-VirtualBox NetworkManager[787]: <warn>  [1535609765.9022] device (veth003caec): failed to find device 343 'veth003caec' with udev
+Aug 30 11:46:05 akila-VirtualBox NetworkManager[787]: <info>  [1535609765.9037] manager: (veth003caec): new Veth device (/org/freedesktop/NetworkManager/Devices/506)
+Aug 30 11:46:05 akila-VirtualBox systemd-udevd[5317]: Could not generate persistent MAC address for veth003caec: No such file or directory
+Aug 30 11:46:05 akila-VirtualBox NetworkManager[787]: <warn>  [1535609765.9170] device (veth991c94b): failed to find device 344 'veth991c94b' with udev
+Aug 30 11:46:05 akila-VirtualBox NetworkManager[787]: <info>  [1535609765.9294] manager: (veth991c94b): new Veth device (/org/freedesktop/NetworkManager/Devices/507)
+Aug 30 11:46:05 akila-VirtualBox systemd-udevd[5319]: Could not generate persistent MAC address for veth991c94b: No such file or directory
+Aug 30 11:46:05 akila-VirtualBox kernel: [67391.396528] docker0: port 1(veth991c94b) entered blocking state
+Aug 30 11:46:05 akila-VirtualBox kernel: [67391.396530] docker0: port 1(veth991c94b) entered disabled state
+Aug 30 11:46:05 akila-VirtualBox kernel: [67391.396636] device veth991c94b entered promiscuous mode
+Aug 30 11:46:05 akila-VirtualBox kernel: [67391.396764] IPv6: ADDRCONF(NETDEV_UP): veth991c94b: link is not ready
+Aug 30 11:46:05 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:05.964220828+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 11:46:05 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:05.964567733+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 11:46:05 akila-VirtualBox NetworkManager[787]: <info>  [1535609765.9812] devices added (path: /sys/devices/virtual/net/veth003caec, iface: veth003caec)
+Aug 30 11:46:05 akila-VirtualBox NetworkManager[787]: <info>  [1535609765.9821] device added (path: /sys/devices/virtual/net/veth003caec, iface: veth003caec): no ifupdown configuration found.
+Aug 30 11:46:06 akila-VirtualBox NetworkManager[787]: <info>  [1535609766.0128] devices added (path: /sys/devices/virtual/net/veth991c94b, iface: veth991c94b)
+Aug 30 11:46:06 akila-VirtualBox NetworkManager[787]: <info>  [1535609766.0128] device added (path: /sys/devices/virtual/net/veth991c94b, iface: veth991c94b): no ifupdown configuration found.
+Aug 30 11:46:06 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:06+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/0075ca6514b1344b8adb0541406e8327feaaefd9c84d4564000e543208fb4b4d/shim.sock" debug=false pid=5339
+Aug 30 11:46:06 akila-VirtualBox NetworkManager[787]: <info>  [1535609766.4504] devices removed (path: /sys/devices/virtual/net/veth003caec, iface: veth003caec)
+Aug 30 11:46:06 akila-VirtualBox NetworkManager[787]: <info>  [1535609766.4504] device (veth003caec): driver 'veth' does not support carrier detection.
+Aug 30 11:46:06 akila-VirtualBox NetworkManager[787]: <info>  [1535609766.4634] device (veth991c94b): link connected
+Aug 30 11:46:06 akila-VirtualBox NetworkManager[787]: <info>  [1535609766.4638] device (docker0): link connected
+Aug 30 11:46:06 akila-VirtualBox kernel: [67391.920202] eth0: renamed from veth003caec
+Aug 30 11:46:06 akila-VirtualBox kernel: [67391.920445] IPv6: ADDRCONF(NETDEV_CHANGE): veth991c94b: link becomes ready
+Aug 30 11:46:06 akila-VirtualBox kernel: [67391.920485] docker0: port 1(veth991c94b) entered blocking state
+Aug 30 11:46:06 akila-VirtualBox kernel: [67391.920486] docker0: port 1(veth991c94b) entered forwarding state
+Aug 30 11:46:08 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface veth991c94b.IPv6 with address fe80::3c84:52ff:fe44:5412.
+Aug 30 11:46:08 akila-VirtualBox avahi-daemon[772]: New relevant interface veth991c94b.IPv6 for mDNS.
+Aug 30 11:46:08 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::3c84:52ff:fe44:5412 on veth991c94b.*.
+Aug 30 11:46:12 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:12+05:30" level=info msg="shim reaped" id=0075ca6514b1344b8adb0541406e8327feaaefd9c84d4564000e543208fb4b4d
+Aug 30 11:46:12 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:12.288763482+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 11:46:12 akila-VirtualBox kernel: [67397.789232] docker0: port 1(veth991c94b) entered disabled state
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.3323] device (veth991c94b): link disconnected
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.3324] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 11:46:12 akila-VirtualBox kernel: [67397.795154] veth003caec: renamed from eth0
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <warn>  [1535609772.3465] device (veth003caec): failed to find device 343 'veth003caec' with udev
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.3500] manager: (veth003caec): new Veth device (/org/freedesktop/NetworkManager/Devices/508)
+Aug 30 11:46:12 akila-VirtualBox avahi-daemon[772]: Interface veth991c94b.IPv6 no longer relevant for mDNS.
+Aug 30 11:46:12 akila-VirtualBox avahi-daemon[772]: Leaving mDNS multicast group on interface veth991c94b.IPv6 with address fe80::3c84:52ff:fe44:5412.
+Aug 30 11:46:12 akila-VirtualBox kernel: [67397.829080] docker0: port 1(veth991c94b) entered disabled state
+Aug 30 11:46:12 akila-VirtualBox kernel: [67397.837948] device veth991c94b left promiscuous mode
+Aug 30 11:46:12 akila-VirtualBox kernel: [67397.837953] docker0: port 1(veth991c94b) entered disabled state
+Aug 30 11:46:12 akila-VirtualBox avahi-daemon[772]: Withdrawing address record for fe80::3c84:52ff:fe44:5412 on veth991c94b.
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.3972] devices added (path: /sys/devices/virtual/net/veth003caec, iface: veth003caec)
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.3980] device added (path: /sys/devices/virtual/net/veth003caec, iface: veth003caec): no ifupdown configuration found.
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.4216] device (veth003caec): driver 'veth' does not support carrier detection.
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.4309] device (veth991c94b): driver 'veth' does not support carrier detection.
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.4573] devices removed (path: /sys/devices/virtual/net/veth003caec, iface: veth003caec)
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.4635] devices removed (path: /sys/devices/virtual/net/veth991c94b, iface: veth991c94b)
+Aug 30 11:46:12 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:12.763205896+05:30" level=info msg="Layer sha256:23896bbcb95b5fec84a981dc7af001c5c6d23899fa0d90fef46586980bf8f49b cleaned up"
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <warn>  [1535609772.8401] device (vethcc42853): failed to find device 345 'vethcc42853' with udev
+Aug 30 11:46:12 akila-VirtualBox systemd-udevd[5502]: Could not generate persistent MAC address for vethcc42853: No such file or directory
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.8468] manager: (vethcc42853): new Veth device (/org/freedesktop/NetworkManager/Devices/509)
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <warn>  [1535609772.8491] device (vethee3e5cb): failed to find device 346 'vethee3e5cb' with udev
+Aug 30 11:46:12 akila-VirtualBox systemd-udevd[5505]: Could not generate persistent MAC address for vethee3e5cb: No such file or directory
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.8527] manager: (vethee3e5cb): new Veth device (/org/freedesktop/NetworkManager/Devices/510)
+Aug 30 11:46:12 akila-VirtualBox kernel: [67398.318237] docker0: port 1(vethee3e5cb) entered blocking state
+Aug 30 11:46:12 akila-VirtualBox kernel: [67398.318239] docker0: port 1(vethee3e5cb) entered disabled state
+Aug 30 11:46:12 akila-VirtualBox kernel: [67398.318334] device vethee3e5cb entered promiscuous mode
+Aug 30 11:46:12 akila-VirtualBox kernel: [67398.318423] IPv6: ADDRCONF(NETDEV_UP): vethee3e5cb: link is not ready
+Aug 30 11:46:12 akila-VirtualBox kernel: [67398.318425] docker0: port 1(vethee3e5cb) entered blocking state
+Aug 30 11:46:12 akila-VirtualBox kernel: [67398.318426] docker0: port 1(vethee3e5cb) entered forwarding state
+Aug 30 11:46:12 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:12.886261050+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 11:46:12 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:12.887134899+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.9282] devices added (path: /sys/devices/virtual/net/vethcc42853, iface: vethcc42853)
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.9303] device added (path: /sys/devices/virtual/net/vethcc42853, iface: vethcc42853): no ifupdown configuration found.
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.9444] devices added (path: /sys/devices/virtual/net/vethee3e5cb, iface: vethee3e5cb)
+Aug 30 11:46:12 akila-VirtualBox NetworkManager[787]: <info>  [1535609772.9444] device added (path: /sys/devices/virtual/net/vethee3e5cb, iface: vethee3e5cb): no ifupdown configuration found.
+Aug 30 11:46:12 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:12+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/6955d5cdb9c852f8b47108f2283f2c7f11402fac78894e81dead3d856c2e7e51/shim.sock" debug=false pid=5522
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.0798] devices removed (path: /sys/devices/virtual/net/vethcc42853, iface: vethcc42853)
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.0798] device (vethcc42853): driver 'veth' does not support carrier detection.
+Aug 30 11:46:13 akila-VirtualBox kernel: [67398.549897] eth0: renamed from vethcc42853
+Aug 30 11:46:13 akila-VirtualBox kernel: [67398.551624] IPv6: ADDRCONF(NETDEV_CHANGE): vethee3e5cb: link becomes ready
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.0969] device (vethee3e5cb): link connected
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.0979] device (docker0): link connected
+Aug 30 11:46:13 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:13+05:30" level=info msg="shim reaped" id=6955d5cdb9c852f8b47108f2283f2c7f11402fac78894e81dead3d856c2e7e51
+Aug 30 11:46:13 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:13.210534021+05:30" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Aug 30 11:46:13 akila-VirtualBox kernel: [67398.673306] docker0: port 1(vethee3e5cb) entered disabled state
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.2163] device (vethee3e5cb): link disconnected
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.2164] device (docker0): link disconnected (deferring action for 4 seconds)
+Aug 30 11:46:13 akila-VirtualBox kernel: [67398.678398] vethcc42853: renamed from eth0
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <warn>  [1535609773.2294] device (vethcc42853): failed to find device 345 'vethcc42853' with udev
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.2312] manager: (vethcc42853): new Veth device (/org/freedesktop/NetworkManager/Devices/511)
+Aug 30 11:46:13 akila-VirtualBox kernel: [67398.714060] docker0: port 1(vethee3e5cb) entered disabled state
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.2666] devices added (path: /sys/devices/virtual/net/vethcc42853, iface: vethcc42853)
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.2669] device added (path: /sys/devices/virtual/net/vethcc42853, iface: vethcc42853): no ifupdown configuration found.
+Aug 30 11:46:13 akila-VirtualBox kernel: [67398.722607] device vethee3e5cb left promiscuous mode
+Aug 30 11:46:13 akila-VirtualBox kernel: [67398.722610] docker0: port 1(vethee3e5cb) entered disabled state
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.2732] device (vethcc42853): driver 'veth' does not support carrier detection.
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.2847] device (vethee3e5cb): driver 'veth' does not support carrier detection.
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.3383] devices removed (path: /sys/devices/virtual/net/vethcc42853, iface: vethcc42853)
+Aug 30 11:46:13 akila-VirtualBox NetworkManager[787]: <info>  [1535609773.3482] devices removed (path: /sys/devices/virtual/net/vethee3e5cb, iface: vethee3e5cb)
+Aug 30 11:46:13 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:13.748281016+05:30" level=info msg="Layer sha256:3369cc850e80196445deb0b481ceff93914f1cc25809e43c49a76917984f5387 cleaned up"
+Aug 30 11:46:17 akila-VirtualBox NetworkManager[787]: <info>  [1535609777.1964] device (docker0): link disconnected (calling deferred action)
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <warn>  [1535609796.5667] device (vethfc8d673): failed to find device 347 'vethfc8d673' with udev
+Aug 30 11:46:36 akila-VirtualBox systemd-udevd[5676]: Could not generate persistent MAC address for vethf41f74a: No such file or directory
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <info>  [1535609796.5769] manager: (vethfc8d673): new Veth device (/org/freedesktop/NetworkManager/Devices/512)
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <warn>  [1535609796.5804] device (vethf41f74a): failed to find device 348 'vethf41f74a' with udev
+Aug 30 11:46:36 akila-VirtualBox systemd-udevd[5674]: Could not generate persistent MAC address for vethfc8d673: No such file or directory
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <info>  [1535609796.5896] manager: (vethf41f74a): new Veth device (/org/freedesktop/NetworkManager/Devices/513)
+Aug 30 11:46:36 akila-VirtualBox kernel: [67422.052740] docker0: port 1(vethf41f74a) entered blocking state
+Aug 30 11:46:36 akila-VirtualBox kernel: [67422.052741] docker0: port 1(vethf41f74a) entered disabled state
+Aug 30 11:46:36 akila-VirtualBox kernel: [67422.055540] device vethf41f74a entered promiscuous mode
+Aug 30 11:46:36 akila-VirtualBox kernel: [67422.058480] IPv6: ADDRCONF(NETDEV_UP): vethf41f74a: link is not ready
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <info>  [1535609796.6398] devices added (path: /sys/devices/virtual/net/vethf41f74a, iface: vethf41f74a)
+Aug 30 11:46:36 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:36.640252916+05:30" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Aug 30 11:46:36 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:36.640273536+05:30" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <info>  [1535609796.6409] device added (path: /sys/devices/virtual/net/vethf41f74a, iface: vethf41f74a): no ifupdown configuration found.
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <info>  [1535609796.6547] devices added (path: /sys/devices/virtual/net/vethfc8d673, iface: vethfc8d673)
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <info>  [1535609796.6547] device added (path: /sys/devices/virtual/net/vethfc8d673, iface: vethfc8d673): no ifupdown configuration found.
+Aug 30 11:46:36 akila-VirtualBox dockerd[1445]: time="2018-08-30T11:46:36+05:30" level=info msg="shim docker-containerd-shim started" address="/containerd-shim/moby/ecde5516c6e3f2c1be5327e0aa6ad214fe218b141233708f9e5e7a883055f7fa/shim.sock" debug=false pid=5708
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <info>  [1535609796.8659] device (vethfc8d673): driver 'veth' does not support carrier detection.
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <info>  [1535609796.8832] devices removed (path: /sys/devices/virtual/net/vethfc8d673, iface: vethfc8d673)
+Aug 30 11:46:36 akila-VirtualBox kernel: [67422.338424] eth0: renamed from vethfc8d673
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <info>  [1535609796.8875] device (vethf41f74a): link connected
+Aug 30 11:46:36 akila-VirtualBox kernel: [67422.343704] IPv6: ADDRCONF(NETDEV_CHANGE): vethf41f74a: link becomes ready
+Aug 30 11:46:36 akila-VirtualBox kernel: [67422.343746] docker0: port 1(vethf41f74a) entered blocking state
+Aug 30 11:46:36 akila-VirtualBox kernel: [67422.343747] docker0: port 1(vethf41f74a) entered forwarding state
+Aug 30 11:46:36 akila-VirtualBox NetworkManager[787]: <info>  [1535609796.8907] device (docker0): link connected
+Aug 30 11:46:38 akila-VirtualBox avahi-daemon[772]: Joining mDNS multicast group on interface vethf41f74a.IPv6 with address fe80::2024:8bff:fe83:7034.
+Aug 30 11:46:38 akila-VirtualBox avahi-daemon[772]: New relevant interface vethf41f74a.IPv6 for mDNS.
+Aug 30 11:46:38 akila-VirtualBox avahi-daemon[772]: Registering new address record for fe80::2024:8bff:fe83:7034 on vethf41f74a.*.

@@ -83,8 +83,8 @@ class expenseForm extends React.Component{
                   style={{width:"55%",margiBottom:'20px'}}
                  >
                  <MenuItem value="SQL">SQL</MenuItem>
-                 <MenuItem value="docker">docker</MenuItem>
-                 <MenuItem value="sample">sample</MenuItem>
+                 <MenuItem value="unixsyslogs">unixsyslog</MenuItem>
+                 <MenuItem value="csv">csv</MenuItem>
                 </Select>
             <Button onClick={()=>{this.setState({
               modalOpen: true
