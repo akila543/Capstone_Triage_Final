@@ -10,9 +10,9 @@ WORKDIR /home/triaguser
 ADD jdk-8u181-linux-x64.tar.gz /home/triaguser
 ENV JAVA_HOME /home/triaguser/jdk1.8.0_181
 ENV PATH $JAVA_HOME/bin:$PATH
-ADD elasticsearch.tar.gz /home/triaguser
-ADD kibana.tar.gz /home/triaguser
-ADD logstash-6.3.2.tar.gz /home/triaguser
+ADD elasticsearch-6.4.0.tar.gz /home/triaguser
+ADD kibana-6.4.0-linux-x86_64.tar.gz /home/triaguser
+ADD logstash-6.4.0.tar.gz /home/triaguser
 COPY core /home/triaguser
 RUN npm install
 ADD build.tar.gz /home/triaguser
