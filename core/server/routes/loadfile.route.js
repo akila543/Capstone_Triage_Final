@@ -7,7 +7,7 @@ loadconf.post('/loadconf',function (req, res) {
 var type=req.query.typeoflog;  
 console.log(type);
 if(type=="unixsyslog"){
-  exec('nohup /home/triaguser/logstash-6.4.0/bin/logstash -f /home/triaguser/conf/unixsyslog.conf --path.data /home/triaguser/syslogdata',function(err,stdout,stderr){
+  exec('nohup /home/triaguser/logstash-6.3.2/bin/logstash -f /home/triaguser/conf/unixsyslog.conf --path.data /home/triaguser/syslogdata',function(err,stdout,stderr){
   console.log('out',stdout);
   console.log('errr',stderr);
   console.log(err);
@@ -17,7 +17,7 @@ if(type=="unixsyslog"){
 }
 else if(type=="csv"){
    
-  exec('nohup /home/triaguser/logstash-6.4.0/bin/logstash -f /home/triaguser/conf/sampledocker.conf --path.data /home/triaguser/csvdata',function(err,stdout,stderr){
+  exec('nohup /home/triaguser/logstash-6.3.2/bin/logstash -f /home/triaguser/conf/sampledocker.conf --path.data /home/triaguser/csvdata',function(err,stdout,stderr){
   console.log(stdout)
   console.log('errr',stderr);
   console.log(err);

@@ -61,6 +61,6 @@ module.exports = server.listen(PORT, err => {
   if(err){
     throw err
   }
-  console.log('Triag Server running on 1101')
+  console.log('Triag Server running on $PORT')
 })
 module.exports.app=app;
