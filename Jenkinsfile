@@ -15,7 +15,7 @@ pipeline {
         stage('FunctionalTesting'){
         steps{
         sh '''cd core && npm start '''
-        sh '''node selenium-test.js'''
+        sh '''node selenium.js'''
         }
         }
         stage('Code_Quality'){
