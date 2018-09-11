@@ -16,6 +16,7 @@ pipeline {
         steps{
         sh '''cd core && npm start '''
         sh '''node selenium.js'''
+        sh '''node selenium-test.js'''
         }
         }
         stage('Code_Quality'){
