@@ -77,7 +77,7 @@ class expenseForm extends React.Component{
          <center>
          <Paper style={{marginTop:"5px",width:"80%",height:"200px", backgroundColor:'#d7d9dd'}}>
 
-         <InputLabel style={{color:"black",marginLeft:"50px"}}> select a type of log</InputLabel>
+         <InputLabel style={{color:"black",marginLeft:"50px"}}> choose the type of log</InputLabel>
          <Select value={this.state.typeoflog}
                   onChange={this.handleChangetype}
                   style={{width:"55%",margiBottom:'20px'}}
