@@ -1,0 +1,25 @@
+- hosts: localhost
+  tasks:
+  - name: Copy elasticsearch 
+    copy:
+      src: /home/akila/Triag_docker/Triag-dashboard/elasticsearch.tar.gz
+      dest: /home/akila/.jenkins/workspace/Capstone_pipeline
+  - name: Copy kibana
+    copy:
+      src: /home/akila/Triag_docker/Triag-dashboard/kibana.tar.gz
+      dest: /home/akila/.jenkins/workspace/Capstone_pipeline
+  - name: Copy logstash
+    copy:
+      src: /home/akila/Triag_docker/Triag-dashboard/logstash-6.3.2.tar.gz
+      dest: /home/akila/.jenkins/workspace/Capstone_pipeline
+  - name: Copy jdk files
+    copy:
+      src: /home/akila/Triag_docker/Triag-dashboard/jdk-8u181-linux-x64.tar.gz
+      dest: /home/akila/.jenkins/workspace/Capstone_pipeline
+  - name: Copy build.tar.gz files
+    copy:
+      src: /home/akila/Triag_docker/Triag-dashboard/build.tar.gz
+      dest: /home/akila/.jenkins/workspace/Capstone_pipeline
+  - name: Build Docker images
+    shell: cd /home/akila/.jenkins/workspace/Capstone_pipeline && docker build -t elk . && docker run -t -d -p 3001:3000 elk
+
