@@ -67466,13 +67466,13 @@ var expenseForm = function (_React$Component) {
               ),
               _react2.default.createElement(
                 _MenuItem2.default,
-                { value: 'docker' },
-                'docker'
+                { value: 'unixsyslog' },
+                'unixsyslog'
               ),
               _react2.default.createElement(
                 _MenuItem2.default,
-                { value: 'sample' },
-                'sample'
+                { value: 'csv' },
+                'csv'
               )
             ),
             _react2.default.createElement(
