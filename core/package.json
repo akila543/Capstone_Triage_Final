@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --hot",
-    "start": "cd server && forever restart ./server.js",
+    "start": "cd server && forever start ./server.js",
     "build": "webpack",
     "test": "mocha **/*.test.js"
   },
