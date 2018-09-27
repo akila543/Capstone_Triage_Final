@@ -75,7 +75,7 @@ class expenseForm extends React.Component{
          <center>
          <Paper style={{marginTop:"5px",width:"80%",height:"200px", backgroundColor:'#d7d9dd'}}>
 
-         <InputLabel style={{color:"black",marginLeft:"50px"}}> Choose the type of  log</InputLabel>
+         <InputLabel style={{color:"black",marginLeft:"50px"}}> Select the type of  log</InputLabel>
          <Select value={this.state.typeoflog}
                   onChange={this.handleChangetype}
                   style={{width:"55%",margiBottom:'20px'}}
@@ -102,7 +102,7 @@ class expenseForm extends React.Component{
             size='small'
           >
             <Modal.Content>
-              <h3>Your log file has been submitted successfully </h3>
+              <h3>Your file has been submitted successfully </h3>
             </Modal.Content>
             <Modal.Actions>
               <Button color='green' onClick={this.handleSave.bind(this)} inverted>
