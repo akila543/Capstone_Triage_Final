@@ -5,7 +5,6 @@ var  spawn  = require('child_process').spawn;
 
 loadconf.post('/loadconf',function (req, res) {
 var type=req.query.typeoflog;  
-console.log(type);
 if(type=="unixsyslog"){
   exec('nohup /home/triaguser/logstash-6.3.2/bin/logstash -f /home/triaguser/conf/unixsyslog.conf --path.data /home/triaguser/syslogdata',function(err,stdout,stderr){
   console.log('out',stdout);
@@ -26,6 +25,7 @@ else if(type=="csv"){
 
 }
 res.send("file loaded into logstash")
+
   });
 
 
