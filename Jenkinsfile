@@ -14,9 +14,7 @@ pipeline {
         }
         stage('FunctionalTesting'){
         steps{
-        sh '''cd core && npm start '''
-        sh '''node selenium.js'''
-        sh '''node selenium-test.js'''
+            echo 'Functional test cases are disabled'
         }
         }
         stage('Code_Quality'){
